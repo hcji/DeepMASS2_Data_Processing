@@ -14,18 +14,18 @@ from rdkit import Chem
 from rdkit.Chem import AllChem, inchi
 from matchms.importing import load_from_mgf
 
-spectrums = [s for s in load_from_mgf('example/CASMI/all_casmi.mgf')]
+spectrums = [s for s in load_from_mgf('Example/CASMI/all_casmi.mgf')]
 
-sirius_path = "example/CASMI/sirius"
+sirius_path = "Example/CASMI/sirius"
 sirius_files = [name for name in os.listdir(sirius_path) if os.path.isdir(os.path.join(sirius_path, name)) ]
 sirius_index = [int(i.split('_')[-2]) for i in sirius_files]
 
-deepmass_path = "example/CASMI/result"
+deepmass_path = "Example/CASMI/result"
 deepmass_files = [name for name in os.listdir(deepmass_path)]
 deepmass_index = [int(i.split('_')[-1].split('.')[-2]) for i in deepmass_files]
 
 
-msfinder_path = "example/CASMI/msfinder/Structure result-2088.txt"
+msfinder_path = "Example/CASMI/msfinder/Structure result-2088.txt"
 msfinder_result = pd.read_csv(msfinder_path, sep = '\t')
 msfinder_columns = [col for col in msfinder_result.columns if 'InChIKey' in col]
 

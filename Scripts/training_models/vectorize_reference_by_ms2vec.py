@@ -25,7 +25,7 @@ file = 'Models/Ms2Vec_allGNPSpositive.hdf5'
 model = gensim.models.Word2Vec.load(file)
 calc_ms2vec_vector = lambda x: calc_vector(model, SpectrumDocument(x, n_decimals=2))
 
-with open('Saves/references_spectrums_positive.pickle', 'rb') as file:
+with open('Saves/paper_version/references_spectrums_positive.pickle', 'rb') as file:
     reference = pickle.load(file)
 
 reference_vector = []
@@ -43,16 +43,16 @@ p = hnswlib.Index(space = 'l2', dim = dim)
 p.init_index(max_elements = num_elements, ef_construction = 800, M = 64)
 p.add_items(xb, ids)
 p.set_ef(300)
-p.save_index('data/references_index_positive_spec2vec.bin')
+p.save_index('Saves/paper_version/references_index_positive_spec2vec.bin')
 
 
 
 # negative
-file = 'model/Ms2Vec_allGNPSnegative.hdf5'
+file = 'Models/Ms2Vec_allGNPSnegative.hdf5'
 model = gensim.models.Word2Vec.load(file)
 calc_ms2vec_vector = lambda x: calc_vector(model, SpectrumDocument(x, n_decimals=2))
 
-with open('data/references_spectrums_negative.pickle', 'rb') as file:
+with open('Saves/paper_version/references_spectrums_negative.pickle', 'rb') as file:
     reference = pickle.load(file)
 
 reference_vector = []
@@ -70,4 +70,4 @@ p = hnswlib.Index(space = 'l2', dim = dim)
 p.init_index(max_elements = num_elements, ef_construction = 800, M = 64)
 p.add_items(xb, ids)
 p.set_ef(300)
-p.save_index('data/references_index_negative_spec2vec.bin')
+p.save_index('Saves/paper_version/references_index_negative_spec2vec.bin')

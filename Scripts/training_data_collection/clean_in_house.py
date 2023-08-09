@@ -10,7 +10,7 @@ import pickle
 import numpy as np
 from tqdm import tqdm
 
-path_data = os.path.join('D:/DeepMASS2_Data_Processing/Datasets/GNPS_all')
+path_data = os.path.join('D:/DeepMASS2_Data_Processing/Datasets/In_House')
 filename = os.path.join(path_data, 'preprocessed_spectrums.npy')
 spectrums = np.load(filename, allow_pickle = True)
 
