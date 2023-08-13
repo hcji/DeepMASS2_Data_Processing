@@ -77,11 +77,11 @@ for s in tqdm(spectrums):
                 continue
         reference.append(s)
 
-pickle.dump(reference, open('data/references_spectrums_positive.pickle', "wb"))
-pickle.dump(test, open('example/Test/test_spectrums_positive.pickle', "wb"))
+pickle.dump(reference, open('Saves/paper_version/references_spectrums_positive.pickle', "wb"))
+pickle.dump(test, open('Example/Test/test_spectrums_positive.pickle', "wb"))
 
 
-with open('data/references_spectrums_positive.pickle', 'rb') as file:
+with open('Saves/paper_version/references_spectrums_positive.pickle', 'rb') as file:
     spectrums = pickle.load(file)
 
 documents = [SpectrumDocument(s, n_decimals=2) for s in spectrums]
@@ -146,11 +146,11 @@ for s in tqdm(spectrums):
                 test.append(s)
                 continue
         reference.append(s)
-pickle.dump(reference, open('data/references_spectrums_negative.pickle', "wb"))
-pickle.dump(test, open('example/Test/test_spectrums_negative.pickle', "wb"))
+pickle.dump(reference, open('Saves/paper_version/references_spectrums_negative.pickle', "wb"))
+pickle.dump(test, open('Example/Test/test_spectrums_negative.pickle', "wb"))
 
 
-with open('data/references_spectrums_negative.pickle', 'rb') as file:
+with open('Saves/paper_version/references_spectrums_negative.pickle', 'rb') as file:
     spectrums = pickle.load(file)
 
 documents = [SpectrumDocument(s, n_decimals=2) for s in spectrums]
