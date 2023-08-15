@@ -11,6 +11,25 @@ from tqdm import tqdm
 
 biodatabase = pd.read_csv('Saves/public_version/DeepMassStructureDB-v1.0.csv')
 
+
+def capitalize_first_letter(input_string):
+    result = ""
+    capitalize_next = True
+
+    for char in input_string:
+        if char.isalpha():
+            if capitalize_next:
+                result += char.upper()
+                capitalize_next = False
+            else:
+                result += char.lower()
+        else:
+            result += char
+            capitalize_next = True
+
+    return result
+
+
 def get_synonyms_by_inchikey(inchikey):
     base_url = "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound"
     operation = "inchikey/" + inchikey + "/synonyms/JSON"
@@ -33,14 +52,20 @@ def get_synonyms_by_inchikey(inchikey):
 
 
 synonyms = []
-for i in tqdm(biodatabase.index): 
-    inchikey = biodatabase['InChIkey'][i]
-    synonyms_i = get_synonyms_by_inchikey(inchikey)
-    if len(synonyms_i) == 0:
+for i in tqdm(biodatabase.index):
+    synonyms_i = str(biodatabase['Title'][i])
+    if (synonyms_i[:4] == 'UNPD') or (synonyms_i[:3] == 'CNP') or (synonyms_i == 'nan') or (synonyms_i == ''):
+        inchikey = biodatabase['InChIkey'][i]
+        try:
+            synonyms_i = get_synonyms_by_inchikey(inchikey)
+            if len(synonyms_i) > 0:
+                synonyms_i = synonyms_i[0]
+        except:
+            pass
+    if synonyms_i == '':
         synonyms_i = biodatabase['Title'][i]
-    else:
-        synonyms_i = synonyms_i[0]
+    synonyms_i = capitalize_first_letter(synonyms_i)
     synonyms.append(synonyms_i)
-        
 
-
+biodatabase['Title'] = synonyms
+biodatabase.to_csv('Saves/public_version/DeepMassStructureDB-v1.0.csv')
