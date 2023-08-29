@@ -11,9 +11,10 @@ import numpy as np
 from tqdm import tqdm
 from rdkit import Chem
 from rdkit.Chem import rdmolfiles, inchi
+from matchms import Spectrum
 from matchms.importing import load_from_msp
 
-path_data = os.path.join('D:/DeepMASS2_Data_Processing/Datasets/GNPS_all')
+path_data = os.path.join('D:/DeepMASS2_Data_Processing/Datasets/NIST2020')
 
 file_mol = os.path.join(path_data, 'hr_msms_nist.MOL')
 file_spec = os.path.join(path_data, 'hr_msms_nist.MSP')
@@ -112,13 +113,6 @@ for spectrum in tqdm(spectrums):
         spectrum.set("compound_name", name)
         
 
-for spec in spectrums:
-    if spec.get("adduct") in ['[M+CH3COO]-/[M-CH3]-',
-                             '[M-H]-/[M-Ser]-',
-                             '[M-CH3]-']:
-        if spec.get("ionmode") != "negative":
-            spec.set("ionmode", "negative")
-
 
 from matchms.filtering import normalize_intensities
 from matchms.filtering import require_minimum_number_of_peaks
@@ -132,17 +126,31 @@ def post_process(s):
 
 spectrums = [post_process(s) for s in tqdm(spectrums)]
 spectrums = [s for s in spectrums if s is not None]
+np.save(os.path.join(path_data, 'preprocessed_spectrums.npy'), spectrums)
 
 
+spectrums = np.load(os.path.join(path_data, 'preprocessed_spectrums.npy'), allow_pickle=True)
 spectrums_positive = []
 spectrums_negative = []
-for i, spec in enumerate(spectrums):
-    if spec.get("ionmode") == "positive":
-        spectrums_positive.append(spec)
-    elif spec.get("ionmode") == "negative":
-        spectrums_negative.append(spec)
+for i, s in enumerate(tqdm(spectrums)):
+    try:
+        new_s = Spectrum(mz = s.mz, intensities = s.intensities,
+                         metadata = {'compound_name': s.get('compound_name'),
+                                     'precursor_mz': s.get('precursor_mz'),
+                                     'adduct': s.get('adduct'),
+                                     'parent_mass': s.get('parent_mass'),
+                                     'smiles': s.get('smiles'),
+                                     'ionmode': s.get('ionmode'),
+                                     'inchikey': s.get('inchikey'),
+                                     'database': 'NIST20'})
+    except:
+        continue
+    if s.get("ionmode") == "positive":
+        spectrums_positive.append(s)
+    elif s.get("ionmode") == "negative":
+        spectrums_negative.append(s)
     else:
-        print(f"No ionmode found for spectrum {i} ({spec.get('ionmode')})")
+        pass
 
 pickle.dump(spectrums_negative, 
             open(os.path.join(path_data, 'ALL_NIST20_negative_cleaned.pickle'), "wb"))

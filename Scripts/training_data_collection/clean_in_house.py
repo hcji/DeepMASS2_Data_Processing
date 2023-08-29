@@ -9,6 +9,8 @@ import os
 import pickle
 import numpy as np
 from tqdm import tqdm
+from rdkit import Chem
+from rdkit.Chem import AllChem
 
 path_data = os.path.join('D:/DeepMASS2_Data_Processing/Datasets/In_House')
 filename = os.path.join(path_data, 'preprocessed_spectrums.npy')
@@ -85,18 +87,45 @@ def post_process(s):
     return s
 
 spectrums = [post_process(s) for s in tqdm(spectrums)]
+spectrums = [s for s in spectrums if s is not None]
 np.save(os.path.join(path_data, 'preprocessed_spectrums.npy'), spectrums)
 
-spectrums = [s for s in spectrums if s is not None]
+
+from matchms import Spectrum
+
+spectrums = np.load(os.path.join(path_data, 'preprocessed_spectrums.npy'), allow_pickle=True)
 spectrums_positive = []
 spectrums_negative = []
-for i, spec in enumerate(spectrums):
-    if spec.get("ionmode") == "positive":
-        spectrums_positive.append(spec)
-    elif spec.get("ionmode") == "negative":
-        spectrums_negative.append(spec)
+for i, s in enumerate(spectrums):
+    mol = Chem.MolFromSmiles(s.metadata['smiles'])
+    wt = AllChem.CalcExactMolWt(mol)
+    if wt >= 850:
+        continue
+    smi = Chem.MolToSmiles(mol, isomericSmiles=False)
+    formula = AllChem.CalcMolFormula(mol)
+    s = s.set('smiles', smi)
+    s = s.set('parent_mass', wt)
+    s = s.set('formula', formula)
+    
+    try:
+        new_s = Spectrum(mz = s.mz, intensities = s.intensities,
+                         metadata = {'compound_name': s.get('compound_name'),
+                                     'precursor_mz': s.get('precursor_mz'),
+                                     'adduct': s.get('adduct'),
+                                     'parent_mass': s.get('parent_mass'),
+                                     'smiles': s.get('smiles'),
+                                     'ionmode': s.get('ionmode'),
+                                     'inchikey': s.get('inchikey'),
+                                     'database': 'In-House'})
+    except:
+        continue
+    if new_s.get("ionmode") == "positive":
+        spectrums_positive.append(new_s)
+    elif new_s.get("ionmode") == "negative":
+        spectrums_negative.append(new_s)
     else:
-        print(f"No ionmode found for spectrum {i} ({spec.get('ionmode')})")
+        pass
+
 
 pickle.dump(spectrums_negative, 
             open(os.path.join(path_data, 'ALL_Inhouse_negative_cleaned.pickle'), "wb"))

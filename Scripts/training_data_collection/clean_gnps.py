@@ -9,15 +9,14 @@ import os
 import pickle
 import numpy as np
 from tqdm import tqdm
+from matchms import Spectrum
 from matchms.importing import load_from_mgf
-
-path_data = os.path.join('D:/DeepMASS2_Data_Processing/Datasets/GNPS_all')
-filename = os.path.join(path_data, 'ALL_GNPS.mgf')
-spectrums = [s for s in tqdm(load_from_mgf(filename))]
-
-
 from matchms.filtering import default_filters
 from matchms.filtering import add_parent_mass, derive_adduct_from_name
+
+path_data = 'D:/DeepMASS2_Data_Processing/Datasets/GNPS_all'
+filename = os.path.join(path_data, 'ALL_GNPS.mgf')
+spectrums = [s for s in tqdm(load_from_mgf(filename))]
 
 def apply_filters(s):
     s = default_filters(s)
@@ -86,18 +85,31 @@ def post_process(s):
     return s
 
 spectrums = [post_process(s) for s in tqdm(spectrums)]
+spectrums = [s for s in spectrums if s is not None]
 np.save(os.path.join(path_data, 'preprocessed_spectrums.npy'), spectrums)
 
-spectrums = [s for s in spectrums if s is not None]
+spectrums = np.load(os.path.join(path_data, 'preprocessed_spectrums.npy'), allow_pickle=True)
 spectrums_positive = []
 spectrums_negative = []
-for i, spec in enumerate(spectrums):
-    if spec.get("ionmode") == "positive":
-        spectrums_positive.append(spec)
-    elif spec.get("ionmode") == "negative":
-        spectrums_negative.append(spec)
+for i, s in enumerate(tqdm(spectrums)):
+    try:
+        new_s = Spectrum(mz = s.mz, intensities = s.intensities,
+                         metadata = {'compound_name': s.get('compound_name'),
+                                     'precursor_mz': s.get('precursor_mz'),
+                                     'adduct': s.get('adduct'),
+                                     'parent_mass': s.get('parent_mass'),
+                                     'smiles': s.get('smiles'),
+                                     'ionmode': s.get('ionmode'),
+                                     'inchikey': s.get('inchikey'),
+                                     'database': 'GNPS'})
+    except:
+        continue
+    if new_s.get("ionmode") == "positive":
+        spectrums_positive.append(new_s)
+    elif new_s.get("ionmode") == "negative":
+        spectrums_negative.append(new_s)
     else:
-        print(f"No ionmode found for spectrum {i} ({spec.get('ionmode')})")
+        pass
 
 pickle.dump(spectrums_negative, 
             open(os.path.join(path_data, 'ALL_GNPS_220601_negative_cleaned.pickle'), "wb"))

@@ -253,7 +253,7 @@ for i, s in enumerate(challenge_ms):
     # only for ms-finder
     path_msfinder = path.replace('/msp/', '/msfinder/')
     
-    if float(s.metadata['parent_mass']) >= 850:
+    if float(s.metadata['parent_mass']) >= 1000:
         continue        
     with open(path_msfinder, 'w') as msp:
         msp.writelines(lines)
