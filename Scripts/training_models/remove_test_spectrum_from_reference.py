@@ -17,9 +17,28 @@ from matchms.importing import load_from_mgf
 # positive
 spectrums = [s for s in load_from_mgf('Example/CASMI/all_casmi.mgf')]
 
-with open('Saves/paper_version/references_spectrums_positive.pickle', 'rb') as file:
+# positive
+path_data = 'D:/DeepMASS2_Data_Processing/Datasets'
+
+outfile = os.path.join(path_data, 'GNPS_all/ALL_GNPS_220601_positive_cleaned.pickle')
+with open(outfile, 'rb') as file:
     reference = pickle.load(file)
-    
+
+outfile = os.path.join(path_data, 'In_House/ALL_Inhouse_positive_cleaned.pickle')
+with open(outfile, 'rb') as file:
+    reference += pickle.load(file)
+
+outfile = os.path.join(path_data, 'NIST2020/ALL_NIST20_positive_cleaned.pickle')
+with open(outfile, 'rb') as file:
+    reference += pickle.load(file)
+
+for s in tqdm(reference):
+    if s.get('precursor_mz') is None:
+        s.set('precursor_mz', 0)
+
+pmz = np.array([s.get('precursor_mz') for s in tqdm(reference)])
+reference = np.array(reference)[np.argsort(pmz)]
+
 scores = calculate_scores(references=spectrums,
                           queries=reference,
                           similarity_function=CosineGreedy())
@@ -37,9 +56,27 @@ pickle.dump(new_reference,
 
 
 # negative
-with open('Saves/paper_version/references_spectrums_negative.pickle', 'rb') as file:
+path_data = 'D:/DeepMASS2_Data_Processing/Datasets'
+
+outfile = os.path.join(path_data, 'GNPS_all/ALL_GNPS_220601_negative_cleaned.pickle')
+with open(outfile, 'rb') as file:
     reference = pickle.load(file)
-    
+
+outfile = os.path.join(path_data, 'In_House/ALL_Inhouse_negative_cleaned.pickle')
+with open(outfile, 'rb') as file:
+    reference += pickle.load(file)
+
+outfile = os.path.join(path_data, 'NIST2020/ALL_NIST20_negative_cleaned.pickle')
+with open(outfile, 'rb') as file:
+    reference += pickle.load(file)
+
+for s in tqdm(reference):
+    if s.get('precursor_mz') is None:
+        s.set('precursor_mz', 0)
+
+pmz = np.array([s.get('precursor_mz') for s in tqdm(reference)])
+reference = np.array(reference)[np.argsort(pmz)]
+
 scores = calculate_scores(references=spectrums,
                           queries=reference,
                           similarity_function=CosineGreedy())

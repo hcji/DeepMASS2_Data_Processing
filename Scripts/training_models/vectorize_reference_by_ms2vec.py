@@ -46,7 +46,6 @@ p.set_ef(300)
 p.save_index('Saves/paper_version/references_index_positive_spec2vec.bin')
 
 
-
 # negative
 file = 'Models/Ms2Vec_allGNPSnegative.hdf5'
 model = gensim.models.Word2Vec.load(file)

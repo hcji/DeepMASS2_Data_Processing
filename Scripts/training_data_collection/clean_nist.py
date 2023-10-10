@@ -145,10 +145,10 @@ for i, s in enumerate(tqdm(spectrums)):
                                      'database': 'NIST20'})
     except:
         continue
-    if s.get("ionmode") == "positive":
-        spectrums_positive.append(s)
-    elif s.get("ionmode") == "negative":
-        spectrums_negative.append(s)
+    if new_s.get("ionmode") == "positive":
+        spectrums_positive.append(new_s)
+    elif new_s.get("ionmode") == "negative":
+        spectrums_negative.append(new_s)
     else:
         pass
 
