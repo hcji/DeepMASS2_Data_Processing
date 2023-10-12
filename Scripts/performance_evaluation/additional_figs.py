@@ -21,10 +21,10 @@ from sklearn.preprocessing import StandardScaler
 
 
 # barchart 1
-x1 = np.array([93.2, 17.6])
-y1 = np.array([100-93.2, 100-17.6])
-x2 = np.array([94.3, 11.0])
-y2 = np.array([100-94.3, 100-11.0])
+x1 = np.array([93.2, 21.7])
+y1 = np.array([100-93.2, 100-21.7])
+x2 = np.array([94.3, 14.0])
+y2 = np.array([100-94.3, 100-14.0])
 
 plt.figure(figsize=(8,3.5), dpi = 300)
 plt.subplot(121)
