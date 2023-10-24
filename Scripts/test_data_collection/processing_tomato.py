@@ -9,7 +9,7 @@ Created on Tue Nov 29 15:27:35 2022
 import pandas as pd
 
 from matchms.exporting import save_as_mgf
-from external.msdial import load_MS_DIAL_Alginment, remove_duplicate
+from core.external import load_MS_DIAL_Alginment, remove_duplicate
 
 pos_path = 'example/Tomato/tomato_positive_msdial.csv'
 neg_path = 'example/Tomato/tomato_negative_msdial.csv'
