@@ -222,7 +222,7 @@ def plot_heatmap(data):
     data = data.iloc[:, :-1]
     data = data.reset_index(drop=True)
     cmap = sns.light_palette("#79C")
-    ax = sns.clustermap(data, row_cluster=True, col_cluster=False, cmap=cmap, col_linkage=False, figsize=(5,8))
+    ax = sns.clustermap(data, row_cluster=True, col_cluster=False, cmap=cmap, col_linkage=False, figsize=(5,8), linewidths=0)
     ax.ax_heatmap.set_yticks([])
     for tick in ax.ax_heatmap.get_xticklabels():
         tick.set_fontsize(20)
