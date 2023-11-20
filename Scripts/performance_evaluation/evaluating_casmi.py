@@ -34,6 +34,11 @@ msfinder_path = "Example/CASMI/msfinder/Structure result-2108.txt"
 msfinder_result = pd.read_csv(msfinder_path, sep = '\t')
 msfinder_columns = [col for col in msfinder_result.columns if 'InChIKey' in col]
 
+deepmass_path_1 = "Example/CASMI/result_new"
+deepmass_files_1 = [name for name in os.listdir(deepmass_path_1)]
+deepmass_index_1 = [int(i.split('_')[-1].split('.')[-2]) for i in deepmass_files_1]
+
+
 ranking_result = []
 for s in tqdm(spectrums):
     name = s.metadata['compound_name']
@@ -60,6 +65,19 @@ for s in tqdm(spectrums):
         sirius_n = 0
         sirius_rank = float('inf')
     
+    # rank of deepmass open
+    deepmass_file_1 = "/{}".format(deepmass_files_1[deepmass_index_1.index(index)])
+    deepmass_file_1 = deepmass_path_1 + deepmass_file_1
+    deepmass_result_1 = pd.read_csv(deepmass_file_1)
+    deepmass_key_1 = np.array([k[:14] for k in deepmass_result_1['InChIKey']])
+    deepmass_n_1 = len(deepmass_key_1)
+    deepmass_rank_1 = np.where(deepmass_key_1 == true_key)[0]
+    if len(deepmass_rank_1) == 0:
+        deepmass_rank_1 = float('inf')
+    else:
+        deepmass_rank_1 = deepmass_rank_1[0] + 1
+
+
     # rank of deepmass
     deepmass_file = "/{}".format(deepmass_files[deepmass_index.index(index)])
     deepmass_file = deepmass_path + deepmass_file
@@ -71,7 +89,7 @@ for s in tqdm(spectrums):
         deepmass_rank = float('inf')
     else:
         deepmass_rank = deepmass_rank[0] + 1
-        
+
         
     # rank of matchms
     matchms_file = "/{}".format(matchms_files[matchms_index.index(index)])
@@ -98,10 +116,10 @@ for s in tqdm(spectrums):
     else:
         msfinder_rank = np.nan
 
-    ranking_result.append([name, true_key, sirius_rank, msfinder_rank, deepmass_rank, matchms_rank])
+    ranking_result.append([name, true_key, sirius_rank, msfinder_rank, deepmass_rank, deepmass_rank_1, matchms_rank])
 
 ranking_result = pd.DataFrame(ranking_result, columns = ['Challenge', 'True Inchikey2D', 'SIRIUS Ranking', 'MSFinder Ranking',
-                                                         'DeepMASS Ranking', 'MatchMS Ranking'])
+                                                         'DeepMASS Ranking', 'DeepMASS Ranking (Open)', 'MatchMS Ranking'])
 
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -110,16 +128,18 @@ import matplotlib.pyplot as plt
 ratios = []
 for i in range(1, 11):
     deepmass_ratio = len(np.where(ranking_result['DeepMASS Ranking'] <= i )[0]) / len(ranking_result)
+    deepmass_ratio_1 = len(np.where(ranking_result['DeepMASS Ranking (Open)'] <= i )[0]) / len(ranking_result)
     msfinder_ratio = len(np.where(ranking_result['MSFinder Ranking'] <= i )[0]) / len(ranking_result)
     sirius_ratio = len(np.where(ranking_result['SIRIUS Ranking'] <= i )[0]) / len(ranking_result)
     matchms_ratio = len(np.where(ranking_result['MatchMS Ranking'] <= i )[0]) / len(ranking_result)
     
-    ratios.append([deepmass_ratio, sirius_ratio, msfinder_ratio, matchms_ratio])
-ratios = pd.DataFrame(ratios, columns = ['DeepMASS', 'SIRIUS', 'MSFinder', 'MatchMS'])
+    ratios.append([deepmass_ratio, deepmass_ratio_1, sirius_ratio, msfinder_ratio, matchms_ratio])
+ratios = pd.DataFrame(ratios, columns = ['DeepMASS', 'DeepMASS (Open)', 'SIRIUS', 'MSFinder', 'MatchMS'])
 
 x = np.arange(1,11)
 plt.figure(dpi = 300, figsize=(4,3.5))
 plt.plot(x, ratios['DeepMASS'], label = 'DeepMASS', marker='D', color = '#FA7F6F')
+plt.plot(x, ratios['DeepMASS (Open)'], label = 'DeepMASS (Open)', marker='D', color = '#FA7F6F', linestyle='--')
 plt.plot(x, ratios['SIRIUS'], label = 'SIRIUS', marker='D', color = '#FFBE7A')
 plt.plot(x, ratios['MSFinder'], label = 'MSFinder', marker='D', color = '#8ECFC9')
 plt.plot(x, ratios['MatchMS'], label = 'MatchMS', marker='D', color = '#82B0D2')
@@ -137,16 +157,18 @@ ranking_result_1 = ranking_result[ranking_result['MatchMS Ranking'] <= 9999]
 ratios = []
 for i in range(1, 11):
     deepmass_ratio = len(np.where(ranking_result_1['DeepMASS Ranking'] <= i )[0]) / len(ranking_result_1)
+    deepmass_ratio_1 = len(np.where(ranking_result_1['DeepMASS Ranking (Open)'] <= i )[0]) / len(ranking_result_1)
     msfinder_ratio = len(np.where(ranking_result_1['MSFinder Ranking'] <= i )[0]) / len(ranking_result_1)
     sirius_ratio = len(np.where(ranking_result_1['SIRIUS Ranking'] <= i )[0]) / len(ranking_result_1)
     matchms_ratio = len(np.where(ranking_result_1['MatchMS Ranking'] <= i )[0]) / len(ranking_result_1)
     
-    ratios.append([deepmass_ratio, sirius_ratio, msfinder_ratio, matchms_ratio])
-ratios = pd.DataFrame(ratios, columns = ['DeepMASS', 'SIRIUS', 'MSFinder', 'MatchMS'])
+    ratios.append([deepmass_ratio, deepmass_ratio_1, sirius_ratio, msfinder_ratio, matchms_ratio])
+ratios = pd.DataFrame(ratios, columns = ['DeepMASS', 'DeepMASS (Open)', 'SIRIUS', 'MSFinder', 'MatchMS'])
 
 x = np.arange(1,11)
 plt.figure(dpi = 300, figsize=(4,3.5))
 plt.plot(x, ratios['DeepMASS'], label = 'DeepMASS', marker='D', color = '#FA7F6F')
+plt.plot(x, ratios['DeepMASS (Open)'], label = 'DeepMASS (Open)', marker='D', color = '#FA7F6F', linestyle='--')
 plt.plot(x, ratios['SIRIUS'], label = 'SIRIUS', marker='D', color = '#FFBE7A')
 plt.plot(x, ratios['MSFinder'], label = 'MSFinder', marker='D', color = '#8ECFC9')
 plt.plot(x, ratios['MatchMS'], label = 'MatchMS', marker='D', color = '#82B0D2')
@@ -166,14 +188,15 @@ for i in range(1, 11):
     deepmass_ratio = len(np.where(ranking_result_2['DeepMASS Ranking'] <= i )[0]) / len(ranking_result_2)
     msfinder_ratio = len(np.where(ranking_result_2['MSFinder Ranking'] <= i )[0]) / len(ranking_result_2)
     sirius_ratio = len(np.where(ranking_result_2['SIRIUS Ranking'] <= i )[0]) / len(ranking_result_2)
-    # matchms_ratio = len(np.where(ranking_result_2['MatchMS Ranking'] <= i )[0]) / len(ranking_result_2)
+    deepmass_ratio_1 = len(np.where(ranking_result_2['DeepMASS Ranking (Open)'] <= i )[0]) / len(ranking_result_2)
     
-    ratios.append([deepmass_ratio, sirius_ratio, msfinder_ratio])
-ratios = pd.DataFrame(ratios, columns = ['DeepMASS', 'SIRIUS', 'MSFinder'])
+    ratios.append([deepmass_ratio, sirius_ratio, msfinder_ratio, deepmass_ratio_1])
+ratios = pd.DataFrame(ratios, columns = ['DeepMASS', 'SIRIUS', 'MSFinder', 'DeepMASS (Open)'])
 
 x = np.arange(1,11)
 plt.figure(dpi = 300, figsize=(4,3.5))
 plt.plot(x, ratios['DeepMASS'], label = 'DeepMASS', marker='D', color = '#FA7F6F')
+plt.plot(x, ratios['DeepMASS (Open)'], label = 'DeepMASS (Open)', marker='D', color = '#FA7F6F', linestyle='--')
 plt.plot(x, ratios['SIRIUS'], label = 'SIRIUS', marker='D', color = '#FFBE7A')
 plt.plot(x, ratios['MSFinder'], label = 'MSFinder', marker='D', color = '#8ECFC9')
 plt.xlim(0.5, 10.5)
