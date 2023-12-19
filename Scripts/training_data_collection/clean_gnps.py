@@ -74,9 +74,31 @@ for spec in spectrums:
             spec.set("ionmode", "negative")
 
 
+from matchms import Fragments
 from matchms.filtering import normalize_intensities
 from matchms.filtering import require_minimum_number_of_peaks
 from matchms.filtering import select_by_mz
+
+def clean_rep_peaks(spectrum:Spectrum):
+    new_spectrum = spectrum.clone()
+    mz = spectrum.mz
+    inten = spectrum.intensities
+    retention_peaks = []
+    for i in range(len(mz)):
+        if (i<len(mz)-1):
+            if (mz[i+1]-mz[i]<=0.01):
+                if inten[i] > inten[i+1]:
+                    retention_peaks.append(i)
+                else:
+                    i +=1
+            else:
+                retention_peaks.append(i)
+        else:
+            if (mz[i]-mz[i-1]<=0.01):
+                if inten[i-1]<=inten[i]:
+                    retention_peaks.append(i)
+    new_spectrum.peaks = Fragments(mz=mz[retention_peaks],intensities=inten[retention_peaks])
+    return new_spectrum
 
 def post_process(s):
     s = normalize_intensities(s)
@@ -84,6 +106,7 @@ def post_process(s):
     s = require_minimum_number_of_peaks(s, n_required=5)
     return s
 
+spectrums = [clean_rep_peaks(s) for s in tqdm(spectrums)]
 spectrums = [post_process(s) for s in tqdm(spectrums)]
 spectrums = [s for s in spectrums if s is not None]
 np.save(os.path.join(path_data, 'preprocessed_spectrums.npy'), spectrums)

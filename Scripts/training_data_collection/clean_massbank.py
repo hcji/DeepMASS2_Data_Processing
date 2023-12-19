@@ -1,74 +1,31 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Dec  1 16:19:45 2022
+Created on Wed Nov 29 13:49:51 2023
 
 @author: DELL
 """
+
 
 import os
 import pickle
 import numpy as np
 from tqdm import tqdm
-from rdkit import Chem
-from rdkit.Chem import rdmolfiles, inchi
 from matchms import Spectrum
 from matchms.importing import load_from_msp
-
-path_data = os.path.join('D:/DeepMASS2_Data_Processing/Datasets/NIST2020')
-
-file_mol = os.path.join(path_data, 'hr_msms_nist.MOL')
-file_spec = os.path.join(path_data, 'hr_msms_nist.MSP')
-
-spectrums = [s for s in tqdm(load_from_msp(file_spec))]
-np.save(os.path.join(path_data, 'preprocessed_spectrums.npy'), spectrums)
-
-def add_mol_info(s):
-    if s.get('smiles'):
-        return s
-    i = s.get('id')
-    f = file_mol + '/ID{}.mol'.format(i)
-    try:
-        m = rdmolfiles.MolFromMolFile(f)
-    except:
-        return None
-    if m is None:
-        return None
-    smi = Chem.MolToSmiles(m)
-    inchikey = inchi.MolToInchiKey(m)
-    s = s.set('smiles', smi)
-    s = s.set('inchikey', inchikey)
-    return s
-
-
-spectrums = [add_mol_info(s) for s in tqdm(spectrums) if s is not None]
-np.save(os.path.join(path_data, 'preprocessed_spectrums.npy'), spectrums)
-
-
 from matchms.filtering import default_filters
-from matchms.filtering import add_parent_mass
-from matchms.filtering.load_adducts import load_adducts_dict
+from matchms.filtering import add_parent_mass, derive_adduct_from_name
 
-adducts_dict = load_adducts_dict()
-adducts_dict = {k: v for k, v in adducts_dict.items() if k in ['[M+H]+', '[M-H]-', '[M+Na]+', '[M+K]+',
-                                                               '[M+Cl]-', '[M+NH4]+']}
-def add_adduct(s, mass_tolerance = 0.01):
-    parent_mass = float(s.get("mw", None))
-    s.set('parent_mass', parent_mass)
-    precursor_mz = s.get("precursor_mz", None)
-    for k in adducts_dict:
-        ionmode_ = adducts_dict[k]['ionmode']
-        charge_ = adducts_dict[k]['charge']
-        correction_mass = adducts_dict[k]['correction_mass']
-        if abs(precursor_mz - parent_mass - correction_mass) <= mass_tolerance:
-            s = s.set('charge', charge_)
-            s = s.set('ionmode', ionmode_)
-            s = s.set('adduct', k)  
-    return s
+path_data = 'D:/DeepMASS2_Data_Processing/Datasets/MassBank'
+filename = os.path.join(path_data, 'MassBank_NIST.msp')
+spectrums = [s for s in tqdm(load_from_msp(filename))]
+
+filename = os.path.join(path_data, 'MassBank_RIKEN.msp')
+spectrums += [s for s in tqdm(load_from_msp(filename))]
 
 
 def apply_filters(s):
-    s = add_adduct(s)
     s = default_filters(s)
+    s = derive_adduct_from_name(s)
     s = add_parent_mass(s, estimate_from_adduct=True)
     return s
 
@@ -87,6 +44,7 @@ def clean_metadata(s):
     return s
 
 spectrums = [clean_metadata(s) for s in tqdm(spectrums) if s is not None]
+np.save(os.path.join(path_data, 'preprocessed_spectrums.npy'), spectrums)
 
 
 from matchms.filtering import derive_inchi_from_smiles, derive_smiles_from_inchi
@@ -113,33 +71,17 @@ for spectrum in tqdm(spectrums):
         spectrum.set("compound_name", name)
         
 
+for spec in spectrums:
+    if spec.get("adduct") in ['[M+CH3COO]-/[M-CH3]-',
+                             '[M-H]-/[M-Ser]-',
+                             '[M-CH3]-']:
+        if spec.get("ionmode") != "negative":
+            spec.set("ionmode", "negative")
 
-from matchms import Fragments
+
 from matchms.filtering import normalize_intensities
 from matchms.filtering import require_minimum_number_of_peaks
 from matchms.filtering import select_by_mz
-
-def clean_rep_peaks(spectrum:Spectrum):
-    new_spectrum = spectrum.clone()
-    mz = spectrum.mz
-    inten = spectrum.intensities
-    retention_peaks = []
-    for i in range(len(mz)):
-        if (i<len(mz)-1):
-            if (mz[i+1]-mz[i]<=0.01):
-                if inten[i] > inten[i+1]:
-                    retention_peaks.append(i)
-                else:
-                    i +=1
-            else:
-                retention_peaks.append(i)
-        else:
-            if (mz[i]-mz[i-1]<=0.01):
-                if inten[i-1]<=inten[i]:
-                    retention_peaks.append(i)
-    new_spectrum.peaks = Fragments(mz=mz[retention_peaks],intensities=inten[retention_peaks])
-    return new_spectrum
-
 
 def post_process(s):
     s = normalize_intensities(s)
@@ -147,11 +89,9 @@ def post_process(s):
     s = require_minimum_number_of_peaks(s, n_required=5)
     return s
 
-spectrums = [clean_rep_peaks(s) for s in tqdm(spectrums)]
 spectrums = [post_process(s) for s in tqdm(spectrums)]
 spectrums = [s for s in spectrums if s is not None]
 np.save(os.path.join(path_data, 'preprocessed_spectrums.npy'), spectrums)
-
 
 spectrums = np.load(os.path.join(path_data, 'preprocessed_spectrums.npy'), allow_pickle=True)
 spectrums_positive = []
@@ -166,7 +106,7 @@ for i, s in enumerate(tqdm(spectrums)):
                                      'smiles': s.get('smiles'),
                                      'ionmode': s.get('ionmode'),
                                      'inchikey': s.get('inchikey'),
-                                     'database': 'NIST20'})
+                                     'database': 'GNPS'})
     except:
         continue
     if new_s.get("ionmode") == "positive":
@@ -177,9 +117,7 @@ for i, s in enumerate(tqdm(spectrums)):
         pass
 
 pickle.dump(spectrums_negative, 
-            open(os.path.join(path_data, 'ALL_NIST20_negative_cleaned.pickle'), "wb"))
+            open(os.path.join(path_data, 'ALL_GNPS_220601_negative_cleaned.pickle'), "wb"))
 
 pickle.dump(spectrums_positive, 
-            open(os.path.join(path_data, 'ALL_NIST20_positive_cleaned.pickle'), "wb"))
-
-
+            open(os.path.join(path_data, 'ALL_GNPS_220601_positive_cleaned.pickle'), "wb"))
