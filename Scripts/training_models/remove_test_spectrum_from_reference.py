@@ -31,6 +31,8 @@ outfile = os.path.join(path_data, 'NIST2020/ALL_NIST20_positive_cleaned.pickle')
 with open(outfile, 'rb') as file:
     reference += pickle.load(file)
 
+reference = [s for s in reference if s.get('smiles') is not None]
+
 
 for s in tqdm(reference):
     if s.get('precursor_mz') is None:
@@ -70,6 +72,8 @@ with open(outfile, 'rb') as file:
 outfile = os.path.join(path_data, 'NIST2020/ALL_NIST20_negative_cleaned.pickle')
 with open(outfile, 'rb') as file:
     reference += pickle.load(file)
+
+reference = [s for s in reference if s.get('smiles') is not None]
 
 
 for s in tqdm(reference):

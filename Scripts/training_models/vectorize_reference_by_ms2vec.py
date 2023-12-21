@@ -6,18 +6,15 @@ Created on Wed Sep 21 08:46:57 2022
 """
 
 
+import os
 import numpy as np
 import pickle
 import hnswlib
 import gensim
 from tqdm import tqdm
 
-from matchms import Spectrum
-from matchms import Fragments
-
 from spec2vec import SpectrumDocument
 from spec2vec.vector_operations import calc_vector
-
 
 
 # positive
@@ -27,7 +24,6 @@ calc_ms2vec_vector = lambda x: calc_vector(model, SpectrumDocument(x, n_decimals
 
 with open('Saves/paper_version/references_spectrums_positive.pickle', 'rb') as file:
     reference = pickle.load(file)
-reference = [s for s in reference if s.get('smiles') is not None]
 
 reference_vector = []
 for s in tqdm(reference):
@@ -54,7 +50,6 @@ calc_ms2vec_vector = lambda x: calc_vector(model, SpectrumDocument(x, n_decimals
 
 with open('Saves/paper_version/references_spectrums_negative.pickle', 'rb') as file:
     reference = pickle.load(file)
-reference = [s for s in reference if s.get('smiles') is not None]
 
 reference_vector = []
 for s in tqdm(reference):
