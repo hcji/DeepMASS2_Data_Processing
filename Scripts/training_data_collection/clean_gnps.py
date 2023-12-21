@@ -109,6 +109,7 @@ def post_process(s):
 spectrums = [clean_rep_peaks(s) for s in tqdm(spectrums)]
 spectrums = [post_process(s) for s in tqdm(spectrums)]
 spectrums = [s for s in spectrums if s is not None]
+spectrums = [s for s in tqdm(spectrums) if s.get('smiles') is not None]
 np.save(os.path.join(path_data, 'preprocessed_spectrums.npy'), spectrums)
 
 spectrums = np.load(os.path.join(path_data, 'preprocessed_spectrums.npy'), allow_pickle=True)

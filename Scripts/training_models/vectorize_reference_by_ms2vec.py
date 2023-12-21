@@ -5,19 +5,40 @@ Created on Wed Sep 21 08:46:57 2022
 @author: DELL
 """
 
-import os
-import random
+
 import numpy as np
 import pickle
 import hnswlib
 import gensim
 from tqdm import tqdm
-from rdkit import Chem
-from rdkit.Chem import AllChem
 
-from matchms.importing import load_from_mgf
+from matchms import Spectrum
+from matchms import Fragments
+
 from spec2vec import SpectrumDocument
 from spec2vec.vector_operations import calc_vector
+
+
+def clean_rep_peaks(spectrum:Spectrum):
+    new_spectrum = spectrum.clone()
+    mz = spectrum.mz
+    inten = spectrum.intensities
+    retention_peaks = []
+    for i in range(len(mz)):
+        if (i<len(mz)-1):
+            if (mz[i+1]-mz[i]<=0.01):
+                if inten[i] > inten[i+1]:
+                    retention_peaks.append(i)
+                else:
+                    i +=1
+            else:
+                retention_peaks.append(i)
+        else:
+            if (mz[i]-mz[i-1]<=0.01):
+                if inten[i-1]<=inten[i]:
+                    retention_peaks.append(i)
+    new_spectrum.peaks = Fragments(mz=mz[retention_peaks],intensities=inten[retention_peaks])
+    return new_spectrum
 
 
 # positive
@@ -30,6 +51,7 @@ with open('Saves/paper_version/references_spectrums_positive.pickle', 'rb') as f
 
 reference_vector = []
 for s in tqdm(reference):
+    s = clean_rep_peaks(s)
     reference_vector.append(calc_ms2vec_vector(s))
 
 xb = np.array(reference_vector).astype('float32')
@@ -56,6 +78,7 @@ with open('Saves/paper_version/references_spectrums_negative.pickle', 'rb') as f
 
 reference_vector = []
 for s in tqdm(reference):
+    s = clean_rep_peaks(s)
     reference_vector.append(calc_ms2vec_vector(s))
 
 xb = np.array(reference_vector).astype('float32')

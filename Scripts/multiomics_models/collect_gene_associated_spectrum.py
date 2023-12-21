@@ -13,10 +13,9 @@ import pandas as pd
 from tqdm import tqdm
 from rdkit import Chem
 from rdkit.Chem import inchi
-from matchms.exporting import save_as_mgf
+from matchms.exporting import save_as_msp
 
-metabolite_protein_associations = np.load('Datasets/HMDB/metabolite_protein_associations.npy', allow_pickle=True)
-metabolite_protein_associations = pd.DataFrame(metabolite_protein_associations, columns=['Uniprot ID', 'HMDB ID', 'Sequence', 'Association SMILES'])
+metabolite_protein_associations = pd.read_pickle('Datasets/HMDB/metabolite_gene_associations.pickle')
 
 # positive
 path_data = 'D:/DeepMASS2_Data_Processing/Datasets'
@@ -33,10 +32,13 @@ outfile = os.path.join(path_data, 'NIST2020/ALL_NIST20_positive_cleaned.pickle')
 with open(outfile, 'rb') as file:
     reference += pickle.load(file)
 
-metabolite_inchikeys, protein_ids = [], []
+np.random.shuffle(reference)
+
+metabolite_inchikeys, gene_ids = [], []
 for i in tqdm(metabolite_protein_associations.index):
     smiles = metabolite_protein_associations.loc[i, 'Association SMILES']
     protid = metabolite_protein_associations.loc[i, 'Uniprot ID']
+    geneid = metabolite_protein_associations.loc[i, 'Gene Name']
     for smi in smiles:
         try:
             mol = Chem.MolFromSmiles(smi)
@@ -44,16 +46,22 @@ for i in tqdm(metabolite_protein_associations.index):
         except:
             continue
         metabolite_inchikeys.append(inchikey)
-        protein_ids.append(protid)
+        gene_ids.append(geneid)
 metabolite_inchikeys = np.array(metabolite_inchikeys)
-protein_ids = np.array(protein_ids)
+gene_ids = np.array(gene_ids)
 
-
-prot_associated_spectrums = []
+existed_inchikeys = []
+gene_associated_spectrums = []
 for s in tqdm(reference):
     inchikey = s.get('inchikey')
+    if inchikey in existed_inchikeys:
+        continue
     if inchikey in metabolite_inchikeys:
-        protid = protein_ids[np.where(metabolite_inchikeys==inchikey)[0]]
-        s = s.set('associated_protein', ','.join(protid))
-        prot_associated_spectrums.append(s)
-save_as_mgf(prot_associated_spectrums, 'Example/ProtAssociated/prot_associated_spectrums.mgf')
+        gene_id = gene_ids[np.where(metabolite_inchikeys==inchikey)[0]]
+        gene_id = [g for g in gene_id if g is not None]
+        if len(gene_id) == 0:
+            continue
+        s = s.set('associated_gene', ','.join(gene_id))
+        existed_inchikeys.append(inchikey)
+        gene_associated_spectrums.append(s)
+save_as_msp(gene_associated_spectrums, 'Example/ProtAssociated/gene_associated_spectrums.msp')

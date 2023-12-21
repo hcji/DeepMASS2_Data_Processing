@@ -60,12 +60,13 @@ for metabolite_elem in tqdm(root.findall('{http://www.hmdb.ca}metabolite')):
         metabolites.append(metabolite)
 
 
-hmdb_pid, hmdb_hid, hmdb_seq, prot_smiles = [], [], [], []
+hmdb_pid, hmdb_hid, hmdb_gene, hmdb_seq, prot_smiles = [], [], [], [], []
 for metabolite_elem in metabolites:
     prot_smiles_i = metabolite_elem['smiles']
     for prot in metabolite_elem['protein_associations']:
         hmdb_pid_i = prot['uniprot_id']
         hmdb_hid_i = prot['protein_accession']
+        hmdb_gene_i = prot['gene_name']
     if hmdb_pid_i not in hmdb_pid:
         try:
             hmdb_seq_i = hmdb_protein[hmdb_hid_i]
@@ -74,6 +75,7 @@ for metabolite_elem in metabolites:
         hmdb_pid.append(hmdb_pid_i)
         hmdb_hid.append(hmdb_hid_i)
         hmdb_seq.append(hmdb_seq_i)
+        hmdb_gene.append(hmdb_gene_i)
         prot_smiles.append([prot_smiles_i])
     else:
         j = hmdb_pid.index(hmdb_pid_i)
@@ -82,6 +84,8 @@ for metabolite_elem in metabolites:
 hmdb_protein = pd.DataFrame({'Uniprot ID': hmdb_pid,
                              'HMDB ID': hmdb_hid,
                              'Sequence': hmdb_seq,
+                             'Gene Name': hmdb_gene,
                              'Association SMILES': prot_smiles})
-np.save('Datasets/HMDB/metabolite_protein_associations.npy', hmdb_protein)
+hmdb_protein.to_pickle('Datasets/HMDB/metabolite_gene_associations.pickle')
+
 

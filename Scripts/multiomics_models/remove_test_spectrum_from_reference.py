@@ -12,9 +12,9 @@ import numpy as np
 from tqdm import tqdm
 from matchms import calculate_scores
 from matchms.similarity import CosineGreedy
-from matchms.importing import load_from_mgf
+from matchms.importing import load_from_msp
 
-spectrums = [s for s in load_from_mgf('Example/CASMI/all_casmi.mgf')]
+spectrums = [s for s in load_from_msp('Example/ProtAssociated/gene_associated_spectrums.msp')]
 
 # positive
 path_data = 'D:/DeepMASS2_Data_Processing/Datasets'
@@ -52,7 +52,7 @@ for i in tqdm(range(len(spectrums))):
     
 new_reference = [reference[i] for i in tqdm(range(len(reference))) if i not in excludes]
 pickle.dump(new_reference, 
-            open(os.path.join('Saves/paper_version/references_spectrums_positive.pickle'), "wb"))
+            open(os.path.join('Saves/multiomics/references_spectrums_positive.pickle'), "wb"))
 
 
 # negative
@@ -90,4 +90,4 @@ for i in tqdm(range(len(spectrums))):
     
 new_reference = [reference[i] for i in tqdm(range(len(reference))) if i not in excludes]
 pickle.dump(new_reference, 
-            open(os.path.join('Saves/paper_version/references_spectrums_negative.pickle'), "wb"))
+            open(os.path.join('Saves/multiomics/references_spectrums_negative.pickle'), "wb"))
