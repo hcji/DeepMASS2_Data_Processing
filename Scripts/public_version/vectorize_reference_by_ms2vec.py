@@ -23,7 +23,7 @@ from spec2vec.vector_operations import calc_vector
 # positive
 file = 'Models/Ms2Vec_allGNPSpositive.hdf5'
 model = gensim.models.Word2Vec.load(file)
-calc_ms2vec_vector = lambda x: calc_vector(model, SpectrumDocument(x, n_decimals=2))
+calc_ms2vec_vector = lambda x: calc_vector(model, SpectrumDocument(x, n_decimals=2), allowed_missing_percentage=100)
 
 with open('Saves/public_version/references_spectrums_positive.pickle', 'rb') as file:
     reference = pickle.load(file)
@@ -49,7 +49,7 @@ p.save_index('Saves/public_version/references_index_positive_spec2vec.bin')
 # negative
 file = 'Models/Ms2Vec_allGNPSnegative.hdf5'
 model = gensim.models.Word2Vec.load(file)
-calc_ms2vec_vector = lambda x: calc_vector(model, SpectrumDocument(x, n_decimals=2))
+calc_ms2vec_vector = lambda x: calc_vector(model, SpectrumDocument(x, n_decimals=2), allowed_missing_percentage=100)
 
 with open('Saves/public_version/references_spectrums_negative.pickle', 'rb') as file:
     reference = pickle.load(file)

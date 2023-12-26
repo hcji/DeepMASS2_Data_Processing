@@ -10,7 +10,7 @@ import pickle
 import numpy as np
 from tqdm import tqdm
 from rdkit import Chem
-from rdkit.Chem import rdmolfiles, inchi
+from rdkit.Chem import rdmolfiles, inchi, AllChem
 from matchms import Spectrum
 from matchms.importing import load_from_msp
 
@@ -46,19 +46,18 @@ np.save(os.path.join(path_data, 'preprocessed_spectrums.npy'), spectrums)
 
 from matchms.filtering import default_filters
 from matchms.filtering import add_parent_mass
-from matchms.filtering.load_adducts import load_adducts_dict
+from matchms.filtering.filter_utils.load_known_adducts import load_known_adducts
 
-adducts_dict = load_adducts_dict()
-adducts_dict = {k: v for k, v in adducts_dict.items() if k in ['[M+H]+', '[M-H]-', '[M+Na]+', '[M+K]+',
-                                                               '[M+Cl]-', '[M+NH4]+']}
+adducts_dict = load_known_adducts()
+adducts_keys = ['[M+H]+', '[M-H]-', '[M+Na]+', '[M+K]+', '[M-H2O+H]+', '[M+H-NH3]+','[M+Cl]-', '[M+NH4]+', '[M+CH3COO]-', '[M-H2O-H]-']
 def add_adduct(s, mass_tolerance = 0.01):
-    parent_mass = float(s.get("mw", None))
-    s.set('parent_mass', parent_mass)
+    parent_mass = float(s.get("nominal_mass"))
     precursor_mz = s.get("precursor_mz", None)
-    for k in adducts_dict:
-        ionmode_ = adducts_dict[k]['ionmode']
-        charge_ = adducts_dict[k]['charge']
-        correction_mass = adducts_dict[k]['correction_mass']
+    for k in adducts_keys:
+        k = np.where(adducts_dict['adduct'] == k)[0][0]
+        ionmode_ = adducts_dict.loc[k,'ionmode']
+        charge_ = adducts_dict.loc[k,'charge']
+        correction_mass = adducts_dict.loc[k,'correction_mass']
         if abs(precursor_mz - parent_mass - correction_mass) <= mass_tolerance:
             s = s.set('charge', charge_)
             s = s.set('ionmode', ionmode_)
@@ -162,7 +161,7 @@ for i, s in enumerate(tqdm(spectrums)):
                          metadata = {'compound_name': s.get('compound_name'),
                                      'precursor_mz': s.get('precursor_mz'),
                                      'adduct': s.get('adduct'),
-                                     'parent_mass': s.get('parent_mass'),
+                                     'parent_mass': s.get('nominal_mass'),
                                      'smiles': s.get('smiles'),
                                      'ionmode': s.get('ionmode'),
                                      'inchikey': s.get('inchikey'),
