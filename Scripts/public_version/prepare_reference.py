@@ -42,7 +42,6 @@ pickle.dump(new_reference,
 
 
 # negative
-# positive
 path_data = 'D:/DeepMASS2_Data_Processing/Datasets'
 
 outfile = os.path.join(path_data, 'GNPS_all/ALL_GNPS_220601_negative_cleaned.pickle')
