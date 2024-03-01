@@ -24,14 +24,6 @@ outfile = os.path.join(path_data, 'GNPS_all/ALL_GNPS_220601_positive_cleaned.pic
 with open(outfile, 'rb') as file:
     reference = pickle.load(file)
 
-outfile = os.path.join(path_data, 'In_House/ALL_Inhouse_positive_cleaned.pickle')
-with open(outfile, 'rb') as file:
-    reference += pickle.load(file)
-
-outfile = os.path.join(path_data, 'NIST2020/ALL_NIST20_positive_cleaned.pickle')
-with open(outfile, 'rb') as file:
-    reference += pickle.load(file)
-
 np.random.shuffle(reference)
 
 metabolite_inchikeys, gene_ids = [], []
