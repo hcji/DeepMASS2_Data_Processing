@@ -13,6 +13,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 from sklearn.impute import KNNImputer
+from scipy.cluster.hierarchy import linkage, leaves_list
 
 from matplotlib.patches import Ellipse
 from sklearn.decomposition import PCA
@@ -183,7 +184,12 @@ model.perform_PCA()
 model.plot_2D()
 
 plt.subplots_adjust(wspace=0.3)
-plt.legend(fontsize=13, loc='upper center', bbox_to_anchor=(-0.2, -0.15), ncol=6)
+handles, labels = plt.gca().get_legend_handles_labels()
+custom_order = ['MG', 'Br3', 'Br7', 'Br10', 'Br15', 'QC']
+label_handle_dict = dict(zip(labels, handles))
+handles = [label_handle_dict[label] for label in custom_order]
+labels = custom_order
+plt.legend(handles, labels, fontsize=13, loc='upper center', bbox_to_anchor=(-0.25, -0.20), ncol=6)
 plt.show()
 
 
@@ -203,17 +209,34 @@ def plot_biomarker(data):
     plt.ylabel("")
     plt.grid(False)
     
-plt.figure(dpi = 300, figsize = (12,7))
-plt.subplot(121)
-data = pd.read_csv('Example/Tomato/biomarker/fig4a.csv', header=None)
-plot_biomarker(data)
 
-plt.subplot(122)
+def plot_biomarker_heatmap(data):
+    pltdata = pd.DataFrame(np.zeros((len(data)-1, 5)))
+    pltdata.index = data.iloc[1:,0]
+    pltdata.columns = ['MG', 'Br3', 'Br7', 'Br10', 'Br15']
+    for i in range(1, data.shape[0]):
+        for j, group in enumerate(['MG', 'Br3', 'Br7', 'Br10', 'Br15']):
+            k = data.iloc[0, :].values == group
+            value = np.mean(data.loc[i, k].astype(float))
+            pltdata.iloc[i-1, j] = value
+    pltdata = pltdata.div(pltdata.max(axis=1), axis=0)
+
+    corr_matrix = np.corrcoef(pltdata)
+    linkage_matrix = linkage(corr_matrix, method='average')
+    ordered_indices = leaves_list(linkage_matrix)
+    pltdata = pltdata.iloc[ordered_indices, :]
+    
+    plt.figure(dpi = 500, figsize=(6, 5))
+    sns.heatmap(pltdata, annot=False, cmap='coolwarm', alpha = 0.8)
+    
+
+data = pd.read_csv('Example/Tomato/biomarker/fig4a.csv', header=None)
+# plot_biomarker(data)
+plot_biomarker_heatmap(data)
+
 data = pd.read_csv('Example/Tomato/biomarker/fig4b.csv', header=None)
-plot_biomarker(data)
-plt.subplots_adjust(wspace=0.95)
-plt.legend(fontsize=13, loc='upper center', bbox_to_anchor=(-0.7, -0.1), ncol=6)
-plt.show()
+# plot_biomarker(data)
+plot_biomarker_heatmap(data)
 
 
 # heatmap
