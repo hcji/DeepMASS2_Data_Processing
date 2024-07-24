@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C21H19ClN4O4	[M + Na]+	C21H19ClN4O4	5.160567242133644	5.160567242133644	0.0	3	0.14453961562702797	1.5416006254994534	2.59119238761462	-0.001558878877342187	

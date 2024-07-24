@@ -1,0 +1,3 @@
+,Title,MolecularFormula,CanonicalSMILES,InChIKey,Database IDs,Formula Score,Structure Score,Consensus Score
+0,"1H-2-Benzopyran-1-one, 3-(2-chloro-3,4-dihydroxypentyl)-6,8-dihydroxy-",C14H15ClO6,CC(O)C(O)C(Cl)Cc1cc2cc(O)cc(O)c2c(=O)o1,DEGAEGGFINXVTE-UHFFFAOYSA-N,NIST:CASNone,1.0,0.9999999981612238,0.9999999987128565
+1,"1H-2-Benzopyran-1-one, 5-chloro-3-(2,4-dihydroxypentyl)-6,8-dihydroxy-",C14H15ClO6,CC(O)CC(O)Cc1cc2c(Cl)c(O)cc(O)c2c(=O)o1,YDFWTYLPMZZSLA-UHFFFAOYSA-N,NIST:CASNone,1.0,0.980599701659368,0.9864197911615575

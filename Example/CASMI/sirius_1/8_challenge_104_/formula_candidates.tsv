@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C22H28N6O3S	[M + H]+	C22H28N6O3S	75.01618118747886	75.01618118747886	0.0	37	0.7565802485901669	-0.9313729474437954	1.047614507683109	-9.888206806127073E-4	

@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C16H24O9	[M + CH2O2 - H]-	C17H26O11	37.02438858226214	37.02438858226214	0.0	7	0.8979545684389366	-10.143252196326833	10.143252196326833	-0.007039314539465954	

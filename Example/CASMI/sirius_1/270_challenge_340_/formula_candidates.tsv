@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C9H9NO4	[M + H]+	C9H9NO4	51.06521021252423	51.06521021252423	0.0	13	0.997203505474128	-0.45138708720798054	0.45138708720798054	-0.0023058734373060273	

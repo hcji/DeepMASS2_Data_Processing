@@ -1,0 +1,2 @@
+,Title,MolecularFormula,CanonicalSMILES,InChIKey,Database IDs,Formula Score,Structure Score,Consensus Score
+0,tipifarnib,C27H22Cl2N4O,Cn1cncc1[C@@](N)(c1ccc(Cl)cc1)c1ccc2c(c1)c(-c1cccc(Cl)c1)cc(=O)n2C,PLHJCIYEEKOWNM-HHHXNRCGSA-N,CHEBI:141969;;DB04960,0.9999999999998835,0.9999999983649892,0.9999999988554574

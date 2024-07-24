@@ -1,0 +1,2 @@
+,Title,MolecularFormula,CanonicalSMILES,InChIKey,Database IDs,Formula Score,Structure Score,Consensus Score
+0,"5-(Acetylamino)-N,N'-bis(2,3-dihydroxypropyl)-2,4,6-triiodo-1,3-benzenedicarboxamide",C16H20I3N3O7,CC(=O)Nc1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)NCC(O)CO)c1I,BHCBLTRDEYPMFZ-UHFFFAOYSA-N,BloodExp:CID11115326;;HMDB0246133,0.9999906272204223,0.9999999990959103,0.9999971875332638

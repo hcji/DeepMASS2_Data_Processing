@@ -1,0 +1,5 @@
+,Title,MolecularFormula,CanonicalSMILES,InChIKey,Database IDs,Formula Score,Structure Score,Consensus Score
+0,"4-{[4-(2-Pyridinyl)-1-piperazinyl]carbonyl}-2-(3,4,5-trimethoxyphenyl)quinoline",C28H28N4O4,COc1cc(-c2cc(C(=O)N3CCN(c4ccccn4)CC3)c3ccccc3n2)cc(OC)c1OC,KYEGRIRKYLGVNS-UHFFFAOYSA-N,NIST:CASNone,1.0,0.999999997874684,0.9999999985122787
+1,5-N-acetyl-15bβ- hydroxyardeemin,C28H28N4O4,C=CC(C)(C)[C@@]12C[C@@]3(O)c4nc5ccccc5c(=O)n4[C@H](C)C(=O)N3[C@@H]1N(C(C)=O)c1ccccc12,UTVHCNQHDCRVMF-HMGCFDHMSA-N,NPA014161,1.0,0.8950567580962513,0.9265397306673759
+2,5-N-acetyl-16α-hydroxyardeemin,C28H28N4O4,C=CC(C)(C)[C@]12c3ccccc3N(C(C)=O)[C@H]1N1C(=O)[C@@H](C)n3c(nc4ccccc4c3=O)[C@@H]1[C@@H]2O,NZEBQKVTPTVMHB-XEFJRJENSA-N,NPA004131,1.0,0.8891862223542083,0.9224303556479458
+3,"1H-Benz(g)indazole-3-carboxylic acid, 1-(1-(3-ethoxyphenyl)propyl)-4,5",C28H28N4O4,CCOc1cccc(C(CC)n2nc(C(=O)O)c3c2-c2ccc(OCc4cncnc4)cc2CC3)c1,GEVQMCFWDDZLMU-UHFFFAOYSA-N,BloodExp:CID9935039,1.0,0.8801124718093751,0.9160787302665625

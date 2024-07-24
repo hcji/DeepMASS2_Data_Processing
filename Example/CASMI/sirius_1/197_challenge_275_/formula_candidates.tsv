@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C8H8BrNO	[M - H]-	C8H8BrNO	1.9022722193422033	1.9022722193422033	0.0	2	1.0	0.16366198394663345	0.16366198394663345	0.002132787787345693	

@@ -1,0 +1,3 @@
+,Title,MolecularFormula,CanonicalSMILES,InChIKey,Database IDs,Formula Score,Structure Score,Consensus Score
+0,methyl 2-(1H-indole-3-carbonyl)thiazole-4-carboxylate,C14H10N2O3S,COC(=O)c1csc(C(=O)c2c[nH]c3ccccc23)n1,KDDXOGDIPZSCTM-UHFFFAOYSA-N,BloodExp:CID4668801;;HMDB0246680,1.0,0.9999999986300868,0.9999999990410606
+1,"2-[(4-Nitrobenzyl)sulfanyl]-1,3-benzoxazole",C14H10N2O3S,O=[N+]([O-])c1ccc(CSc2nc3ccccc3o2)cc1,OWRFFBWURVTRDI-UHFFFAOYSA-N,NIST:CASNone,1.0,0.7673654534293891,0.8371558174005724

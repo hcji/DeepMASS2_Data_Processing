@@ -1,0 +1,2 @@
+,Title,MolecularFormula,CanonicalSMILES,InChIKey,Database IDs,Formula Score,Structure Score,Consensus Score
+0,bromophenol blue,C19H10Br4O5S,O=S1(=O)OC(c2cc(Br)c(O)c(Br)c2)(c2cc(Br)c(O)c(Br)c2)c2ccccc21,UDSAIICHUKSCKT-UHFFFAOYSA-N,CHEBI:59424;;BloodExp:CID8272;;DTXSID6041682,0.9999999999998292,0.9999999979333095,0.9999999985532654

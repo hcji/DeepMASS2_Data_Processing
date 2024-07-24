@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C6H5IO	[M - H]-	C6H5IO	8.10734761724257	8.10734761724257	0.0	2	1.0	-1.1215977081006885	1.41242908092574	0.002064988774473632	

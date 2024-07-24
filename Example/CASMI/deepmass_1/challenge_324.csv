@@ -1,0 +1,2 @@
+,Title,MolecularFormula,CanonicalSMILES,InChIKey,Database IDs,Formula Score,Structure Score,Consensus Score
+0,hexachlorophene,C13H6Cl6O2,Oc1c(Cl)cc(Cl)c(Cl)c1Cc1c(O)c(Cl)cc(Cl)c1Cl,ACGUYXCXAPNIKK-UHFFFAOYSA-N,CHEBI:5693;;BloodExp:CID3598;;DB00756;;HMDB0014894;;C08039;;PMHub:MS000007835;;DTXSID6020690,1.0,0.9999999992040637,0.9999999994428446

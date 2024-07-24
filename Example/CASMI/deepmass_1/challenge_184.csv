@@ -1,0 +1,3 @@
+,Title,MolecularFormula,CanonicalSMILES,InChIKey,Database IDs,Formula Score,Structure Score,Consensus Score
+0,"(3S)-7-[2-[2-[(E)-2-Cyclopentylvinyl]-5-methyloxazole-4-yl]ethoxy]-2-[(2E,4E)-1-oxo-2,4-hexadiene-1-yl]-1,2,3,4-tetrahydroisoquinoline-3-carboxylic acid",C29H34N2O5,CC=CC=CC(=O)N1Cc2cc(OCCc3nc(C=CC4CCCC4)oc3C)ccc2CC1C(=O)O,YRQLFTYCONVUAY-UHFFFAOYSA-N,BloodExp:CID10117275,0.9999959204216857,0.9999999976562506,0.999998774485881
+1,Clifednamide F,C29H34N2O5,CC(=O)[C@H]1[C@@H]2C=C[C@@H]3/C=C/C=C/C(=O)NCCC[C@@H]4NC(=O)C(=C(O)/C=C/C=C/[C@@H]3[C@H]2C[C@H]1C)C4=O,IISFMDXWSLAHAO-JVWXHALYSA-N,NPA029429,0.9999959204216857,0.8843516177237839,0.9190449085331545

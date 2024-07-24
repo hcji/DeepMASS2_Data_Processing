@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C15H12Br4O2	[M - H]-	C15H12Br4O2	-0.28603524255553614	-0.28603524255553614	0.0	2	0.20034399206558448	2.046788723304263	2.046788723304263	8.391471776019934E-4	

@@ -1,0 +1,2 @@
+,Title,MolecularFormula,CanonicalSMILES,InChIKey,Database IDs,Formula Score,Structure Score,Consensus Score
+0,"2'-(4-ethoxyphenyl)-5-(4-methylpiperazin-1-yl)-2,5'-bibenzimidazole",C27H28N6O,CCOc1ccc(-c2nc3ccc(-c4nc5ccc(N6CCN(C)CC6)cc5[nH]4)cc3[nH]2)cc1,PRDFBSVERLRRMY-UHFFFAOYSA-N,CHEBI:51232;;BloodExp:CID1464;;HMDB0253196;;C11189;;PMHub:MS000022161,0.9999999999997486,0.9999999982836143,0.9999999987984545

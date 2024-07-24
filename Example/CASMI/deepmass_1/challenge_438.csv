@@ -1,0 +1,4 @@
+,Title,MolecularFormula,CanonicalSMILES,InChIKey,Database IDs,Formula Score,Structure Score,Consensus Score
+0,picoxystrobin,C18H16F3NO4,CO/C=C(/C(=O)OC)c1ccccc1COc1cccc(C(F)(F)F)n1,IBSNKSODLGJUMQ-SDNWHVSQSA-N,CHEBI:83197;;DTXSID9047542,1.0,0.9999999992388304,0.9999999994671813
+1,"2,6-dimethyl-4-(2-trifluoromethyl-phenyl)-pyridine-3,5-dicarboxylic acid monoethyl ester|4-(2-Trifluormethylphenyl)-2,6-dimethyl-5-carbethoxypyridin-3-carbonsaeure",C18H16F3NO4,CCOC(=O)c1c(C)nc(C)c(C(=O)O)c1-c1ccccc1C(F)(F)F,CXDWIHCGRKPXAR-UHFFFAOYSA-N,PMHub:MS000062790,1.0,0.5638639837274763,0.6947047886092333
+2,2-Acetyloxy-5-[2-[4-(trifluoromethyl)phenyl]ethylamino]benzoic acid,C18H16F3NO4,CC(=O)Oc1ccc(NCCc2ccc(C(F)(F)F)cc2)cc1C(=O)O,XDMMJIGHNYLDPB-UHFFFAOYSA-N,BloodExp:CID23650190,1.0,0.5039978538287194,0.6527984976801036

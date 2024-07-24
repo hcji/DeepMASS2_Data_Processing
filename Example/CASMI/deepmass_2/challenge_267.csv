@@ -1,0 +1,2 @@
+,Title,MolecularFormula,CanonicalSMILES,InChIKey,Database IDs,Formula Score,Structure Score,Consensus Score
+0,4-methylumbelliferone sulfate,C10H8O6S,Cc1cc(=O)oc2cc(OS(=O)(=O)O)ccc12,FUYLLJCBCKRIAL-UHFFFAOYSA-N,CHEBI:1905;;BloodExp:CID84843;;FDB093644;;HMDB0240465;;C11585;;PMHub:MS000001036,0.999999999999778,0.9999999990509612,0.9999999993356061

@@ -1,0 +1,2 @@
+structureRankPerFormula	formulaRank	ConfidenceScore	CSI:FingerIDScore	molecularFormula	adduct	InChIkey2D	InChI	name	smiles	xlogp	pubchemids	links	dbflags
+1	1	0.21079752981640185	-101.16436013699257	C12H19N5O3	[M - H]-	ZZQHGKMTMAORFI	InChI=1S/C12H19N5O3/c1-15-8-9(14-11(15)13-6-5-7-20-4)16(2)12(19)17(3)10(8)18/h5-7H2,1-4H3,(H,13,14)	8-((3-Methoxypropyl)amino)caffeine	CN1C2=C(N=C1NCCCOC)N(C(=O)N(C2=O)C)C	0.100000001	56998	PubChem:(56998);database;PubChem class - safety and toxic	68786585602

@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C12H18Br6	[M + Cl]-	C12H18Br6	-1.6094379124341003	-1.6094379124341003	0.0	1	0.0	NaN	NaN	0.0011035913587575026	

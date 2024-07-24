@@ -1,0 +1,2 @@
+structureRankPerFormula	formulaRank	ConfidenceScore	CSI:FingerIDScore	molecularFormula	adduct	InChIkey2D	InChI	name	smiles	xlogp	pubchemids	links	dbflags
+1	1	0.3687704309428994	-6.733146045012904	C12H4Cl2F6N4S	[M - H]-	FQXWEKADCSXYOC	InChI=1S/C12H4Cl2F6N4S/c13-5-1-4(11(15,16)17)2-6(14)8(5)24-10(22)9(7(3-21)23-24)25-12(18,19)20/h1-2H,22H2	Fipronil Sulfide	C1=C(C=C(C(=C1Cl)N2C(=C(C(=N2)C#N)SC(F)(F)F)N)Cl)C(F)(F)F	5.5	9953940;138396127	NORMAN:(NS00000351);database;PubChem:(9953940 138396127);CHEBI:(83488);additional;PubChem class - safety and toxic;Training Set	68787388450

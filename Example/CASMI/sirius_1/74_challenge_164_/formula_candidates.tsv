@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C19H10Br4O5S	[M - H]-	C19H10Br4O5S	53.16794163051449	53.16794163051449	0.0	16	0.7945899300777817	-3.174542973598945	3.3784793656081122	6.801515677858984E-4	

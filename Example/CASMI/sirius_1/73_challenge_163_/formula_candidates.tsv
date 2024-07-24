@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C9H12FN3O4	[M + Na]+	C9H12FN3O4	19.154462733466392	19.154462733466392	0.0	4	0.7884531520150073	-0.6072306937343122	6.539892954553238	-0.0026115918464741776	

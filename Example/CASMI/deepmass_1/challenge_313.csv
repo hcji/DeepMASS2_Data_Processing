@@ -1,0 +1,2 @@
+,Title,MolecularFormula,CanonicalSMILES,InChIKey,Database IDs,Formula Score,Structure Score,Consensus Score
+0,fipronil-sulfide,C12H4Cl2F6N4S,N#Cc1nn(-c2c(Cl)cc(C(F)(F)F)cc2Cl)c(N)c1SC(F)(F)F,FQXWEKADCSXYOC-UHFFFAOYSA-N,CHEBI:83488;;BloodExp:CID9953940;;PMHub:MS000002156;;DTXSID50869644,1.0,0.9999999991501944,0.9999999994051361

@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C8H17NO	[M + H]+	C8H17NO	66.44941096655349	66.44941096655349	0.0	19	0.9933178343787497	-0.11209271911836803	1.092170332982296	-0.0031365055449037306	

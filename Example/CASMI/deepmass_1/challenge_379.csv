@@ -1,0 +1,3 @@
+,Title,MolecularFormula,CanonicalSMILES,InChIKey,Database IDs,Formula Score,Structure Score,Consensus Score
+0,1-[biphenyl-4-yl(phenyl)methyl]imidazole,C22H18N2,c1ccc(-c2ccc(C(c3ccccc3)n3ccnc3)cc2)cc1,OCAPBUJLXMYKEJ-UHFFFAOYSA-N,CHEBI:78692;;BloodExp:CID2378;;DB04794;;HMDB0015583;;PMHub:MS000007855;;DTXSID9045631,1.0,0.9999999994811624,0.9999999996368136
+1,1-Trityl-1H-imidazole,C22H18N2,c1ccc(C(c2ccccc2)(c2ccccc2)n2ccnc2)cc1,NPZDCTUDQYGYQD-UHFFFAOYSA-N,NIST:CASNone,1.0,0.6149635336485265,0.7304744735539686

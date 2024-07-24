@@ -1,0 +1,2 @@
+structureRankPerFormula	formulaRank	ConfidenceScore	CSI:FingerIDScore	molecularFormula	adduct	InChIkey2D	InChI	name	smiles	xlogp	pubchemids	links	dbflags
+1	1	0.5770787522051374	-8.094593008468257	C13H7Cl2NO5	[M - H]-	IUSYSZLVZMUVDO	InChI=1S/C13H7Cl2NO5/c14-7-1-4-12(10(15)5-7)21-8-2-3-11(16(19)20)9(6-8)13(17)18/h1-6H,(H,17,18)	Bifenox acid	C1=CC(=C(C=C1OC2=C(C=C(C=C2)Cl)Cl)C(=O)O)[N+](=O)[O-]	4.10414505	148653;23202906;138396231	NORMAN:(NS00006987);database;PubChem class - safety and toxic;Training Set;PubChem:(148653 23202906 138396231)	68786864130

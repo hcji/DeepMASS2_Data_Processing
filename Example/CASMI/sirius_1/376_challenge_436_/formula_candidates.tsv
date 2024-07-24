@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C17H19NO4	[M + H]+	C17H19NO4	27.073505063249502	27.073505063249502	0.0	10	0.9921427921679253	0.5132794630416981	0.7261228961270897	-0.0014963014342137477	

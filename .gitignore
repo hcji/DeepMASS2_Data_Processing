@@ -1,21 +1,3 @@
-# Data
-/Example/
-/Datasets/
-*.mgf
-*.msp
-*.npy
-*.npz
-*.bin
-*.model
-*.json
-*.esd
-*.hdf5
-*.csv
-*.png
-*.zip
-*.xlsx
-*.pickle
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

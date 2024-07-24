@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C46H74O18	[M + CH2O2 - H]-	C47H76O20	31.908896372933583	31.908896372933583	0.0	16	0.8396486705210019	-5.587071194693475	5.587071194693475	-0.002972331349067642	

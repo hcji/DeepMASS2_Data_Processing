@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C14H15BrClNO6	[M + H3N + H]+	C14H18BrClN2O6	30.774367910012053	30.774367910012053	0.0	9	0.876089626190932	0.6936270149189248	1.879514029045863	0.010474811367840951	

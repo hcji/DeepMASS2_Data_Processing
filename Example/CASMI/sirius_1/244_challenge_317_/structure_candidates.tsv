@@ -1,0 +1,2 @@
+structureRankPerFormula	formulaRank	ConfidenceScore	CSI:FingerIDScore	molecularFormula	adduct	InChIkey2D	InChI	name	smiles	xlogp	pubchemids	links	dbflags
+1	1	0.2542511870189756	-14.183510095344888	C8HCl3N2O	[M - H]-	MDQKYGOECVSPIW	InChI=1S/C8HCl3N2O/c9-5-3(1-12)6(10)7(11)8(14)4(5)2-13/h14H	4-Hydroxy-2,5,6-trichloroisophthalonitrile	C(#N)C1=C(C(=C(C(=C1Cl)C#N)Cl)Cl)O	2.79649663	34217;138396209	NORMAN:(NS00002719);database;PubChem:(34217 138396209);CHEBI:(133542);EcoCyc Mine;MeSH:(34217);PubChem class - safety and toxic;Training Set;PubMed;KEGG Mine	94556668006

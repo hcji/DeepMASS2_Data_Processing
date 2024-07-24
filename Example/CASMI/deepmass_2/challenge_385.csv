@@ -1,0 +1,3 @@
+,Title,MolecularFormula,CanonicalSMILES,InChIKey,Database IDs,Formula Score,Structure Score,Consensus Score
+0,6-Ethoxy-2-mercaptobenzothiazole,C9H9NOS2,CCOc1ccc2nc(S)sc2c1,HOASVNMVYBSLSU-UHFFFAOYSA-N,PMHub:MS000007809,1.0,0.9999999988828085,0.999999999217966
+1,2-(2-Hydroxyethylmercapto)benzothiazole,C9H9NOS2,OCCSc1nc2ccccc2s1,PYNOHHMFQYUSDD-UHFFFAOYSA-N,DTXSID00196896,1.0,0.8896959543891024,0.9227871680723716

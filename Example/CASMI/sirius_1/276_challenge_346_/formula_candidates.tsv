@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C13H12N4	[M + H]+	C13H12N4	8.744737504686006	8.744737504686006	0.0	8	0.9401143034559204	0.4830385383513913	0.7655055615336585	-0.0020082784985927006	

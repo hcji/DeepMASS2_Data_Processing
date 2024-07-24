@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C9H6BrNO	[M + H]+	C9H6BrNO	6.793417597006892	6.793417597006892	0.0	4	1.0	1.140904597003177	1.140904597003177	-0.002018526732523118	

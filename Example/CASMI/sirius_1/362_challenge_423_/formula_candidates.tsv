@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C22H27ClO3	[M + H]+	C22H27ClO3	90.29321954605949	90.29321954605949	0.0	57	0.9698290068584605	-0.021599907180661095	0.2873065030469748	-0.0012050214585814117	

@@ -1,0 +1,2 @@
+structureRankPerFormula	formulaRank	ConfidenceScore	CSI:FingerIDScore	molecularFormula	adduct	InChIkey2D	InChI	name	smiles	xlogp	pubchemids	links	dbflags
+1	1	0.323120625275368	-408.93965264886043	C17H19FN4O5S	[M - H]-	VNIWZCGZPBJWBI	InChI=1S/C17H19FN4O5S/c1-21-16(25)14(23)13(15(24)19-10-11-4-6-12(18)7-5-11)20-17(21)22-8-2-3-9-28(22,26)27/h4-7,23H,2-3,8-10H2,1H3,(H,19,24)	S1366_Selleck	CN1C(=O)C(=C(N=C1N2CCCCS2(=O)=O)C(=O)NCC3=CC=C(C=C3)F)O	1.0	54682040;54729716	MeSH:(54682040);database;PubChem:(54682040 54729716);PubMed;PubChem class - drug	68753031238

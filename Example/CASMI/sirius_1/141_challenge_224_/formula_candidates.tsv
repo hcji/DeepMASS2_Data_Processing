@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C24H26ClFN4O	[M + Cl]-	C24H26ClFN4O	17.4828598028624	17.4828598028624	0.0	8	0.4554195863858386	-4.131275566268357	4.131275566268357	0.001557602326728649	

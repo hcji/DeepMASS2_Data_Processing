@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C6HF11O2	[M - H]-	C6HF11O2	8.890100265504813	8.890100265504813	0.0	2	0.9913083508976791	0.03471689478402881	0.39653730105975504	0.0014445043895111444	

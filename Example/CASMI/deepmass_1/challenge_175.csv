@@ -1,0 +1,2 @@
+,Title,MolecularFormula,CanonicalSMILES,InChIKey,Database IDs,Formula Score,Structure Score,Consensus Score
+0,"3,3',5,5'-tetraiodothyroacetic acid",C14H8I4O4,O=C(O)Cc1cc(I)c(Oc2cc(I)c(O)c(I)c2)c(I)c1,PPJYSSNKSXAVDB-UHFFFAOYSA-N,CHEBI:131194;;BloodExp:CID65552;;DB01751;;HMDB0258867;;PMHub:MS000002232,0.9999986624940701,0.999999998216697,0.999999597499909

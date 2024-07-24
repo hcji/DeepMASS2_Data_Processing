@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C16H17BrClN3O3	[M + H]+	C16H17BrClN3O3	28.516897645247184	28.516897645247184	0.0	15	0.9556756936966051	-0.027669760086384915	1.1663253146122639	-0.0010919496932614993	

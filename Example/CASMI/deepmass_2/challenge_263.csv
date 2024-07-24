@@ -1,0 +1,3 @@
+,Title,MolecularFormula,CanonicalSMILES,InChIKey,Database IDs,Formula Score,Structure Score,Consensus Score
+0,3-(3-Fluoro-4-methoxyphenyl)prop-2-enoic acid,C10H9FO3,COc1ccc(/C=C/C(=O)O)cc1F,VKZYEBQHWQTZKA-HWKANZROSA-N,NIST:CASNone,1.0,0.9999999983228449,0.9999999988259913
+1,3-(4-Fluorobenzoyl)propionic acid,C10H9FO3,O=C(O)CCC(=O)c1ccc(F)cc1,WUYWHIAAQYQKPP-UHFFFAOYSA-N,BloodExp:CID101359;;HMDB0245781;;PMHub:MS000005130,1.0,0.9849202043097682,0.9894441430168377

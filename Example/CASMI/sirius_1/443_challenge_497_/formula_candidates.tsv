@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C31H23BrO3	[M + H]+	C31H23BrO3	8.60064534979982	8.60064534979982	0.0	7	0.7247422680412372	5.098236660503614	7.457109463322249	-8.642684852515665E-4	

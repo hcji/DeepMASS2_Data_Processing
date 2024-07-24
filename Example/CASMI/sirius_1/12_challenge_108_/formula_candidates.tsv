@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C27H28N4O2	[M + CH2O2 - H]-	C28H30N4O4	27.474644260287917	27.474644260287917	0.0	8	0.8933047255604293	-11.992306489022623	11.992306489022623	-0.005877566555727971	

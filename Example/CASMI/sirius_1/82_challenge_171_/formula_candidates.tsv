@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C22H27NO6	[M + Na]+	C22H27NO6	38.150757114814525	38.150757114814525	0.0	14	0.8853349472099807	0.38010335505223625	1.4071290869506679	-0.0016504834117971054	

@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C6H5BrO	[M - H]-	C6H5BrO	-0.6096086381852315	-0.6096086381852315	0.0	1	0.0	-0.0025031982176487	0.0025031982176487	0.002644653423847971	

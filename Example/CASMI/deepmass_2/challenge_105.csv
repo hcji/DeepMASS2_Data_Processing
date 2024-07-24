@@ -1,0 +1,2 @@
+,Title,MolecularFormula,CanonicalSMILES,InChIKey,Database IDs,Formula Score,Structure Score,Consensus Score
+0,IKK Inhibitor VII,C28H29N5OS,O=C(c1ccc(Nc2nccc(-c3cc4ccccc4s3)n2)cc1)N1CCC(N2CCCC2)CC1,BWZJBXAPRCVCKQ-UHFFFAOYSA-N,BloodExp:CID9549298;;HMDB0247544,1.0,0.9999999985953201,0.9999999990167241

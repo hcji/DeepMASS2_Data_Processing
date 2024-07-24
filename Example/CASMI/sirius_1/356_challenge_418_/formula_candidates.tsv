@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C14H18ClN3O2	[M + H]+	C14H18ClN3O2	8.971179517122499	8.971179517122499	0.0	5	1.0	0.5915181036227191	1.2463068897962077	-0.0015267342626863185	
