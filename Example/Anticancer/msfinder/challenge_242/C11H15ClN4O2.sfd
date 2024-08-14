@@ -1,0 +1,81 @@
+NAME: 15404
+ID: CFRPSFYHXJZSBI
+IsSpectrumSearch: False
+INCHIKEY: CFRPSFYHXJZSBI-DHZHZOJOSA-N
+SMILES: O=[N+]([O-])C=C(NC)N(CC1=CN=C(Cl)C=C1)CC
+RESOURCES: Database ID=15404,ChEBI=CHEBI:39170;CHEBI:39171,STOFF=STOFF_3451,BLEXP=BLEXPDB00003034287,COCONUT=CNP0348514
+SubstructureInChIKeys: VNWKTOKETHGBQD;XLYOFNOQVPJJNP;VGGSQFUCUMXWEO;OTMSDBZUPAUEDD;ROSDSFDQCJNGOL;JCXJVPUVTGWSNB;GETQZCLCWQTVFV;LIWAQLJGPBVORC;XOTDURGROKNGTI;DAZXVJBJRMWXJP;HPNMFZURTQLUMO;JUJWROOIHBZHMG;GNVRJGIVDSQCOP;ITQTTZVARXURQS
+SubstructureOntologies: CHEMONTID:0002500;NonID:H2O;CHEMONTID:0004476;CHEMONTID:0002228;NonID:NO2;CHEMONTID:0002239;CHEMONTID:0000497;CHEMONTID:0000089;CHEMONTID:0004152
+Ontology: 2-halopyridines
+OntologyID: CHEMONTID:0004532
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 13215
+TotalScore: 4.8251
+TotalHrRulesScore: 0
+TotalBondCleavageScore: 0
+TotalMassAccuracyScore: 0
+TotalFragmentLinkageScore: 0
+TotalBondDissociationEnergyScore: 0
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.1765
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 0
+
+NAME: 15405
+ID: CFRPSFYHXJZSBI
+IsSpectrumSearch: False
+INCHIKEY: CFRPSFYHXJZSBI-UHFFFAOYSA-N
+SMILES: O=[N+]([O-])C=C(NC)N(CC1=CN=C(Cl)C=C1)CC
+RESOURCES: Database ID=15405,ChEBI=CHEBI:39170;CHEBI:39171,STOFF=STOFF_3451,BLEXP=BLEXPDB00003034287,COCONUT=CNP0348514
+SubstructureInChIKeys: VNWKTOKETHGBQD;XLYOFNOQVPJJNP;VGGSQFUCUMXWEO;OTMSDBZUPAUEDD;ROSDSFDQCJNGOL;JCXJVPUVTGWSNB;GETQZCLCWQTVFV;LIWAQLJGPBVORC;XOTDURGROKNGTI;DAZXVJBJRMWXJP;HPNMFZURTQLUMO;JUJWROOIHBZHMG;GNVRJGIVDSQCOP;ITQTTZVARXURQS
+SubstructureOntologies: CHEMONTID:0002500;NonID:H2O;CHEMONTID:0004476;CHEMONTID:0002228;NonID:NO2;CHEMONTID:0002239;CHEMONTID:0000497;CHEMONTID:0000089;CHEMONTID:0004152
+Ontology: 2-halopyridines
+OntologyID: CHEMONTID:0004532
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 13215
+TotalScore: 4.8251
+TotalHrRulesScore: 0
+TotalBondCleavageScore: 0
+TotalMassAccuracyScore: 0
+TotalFragmentLinkageScore: 0
+TotalBondDissociationEnergyScore: 0
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.1765
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 0
+
+NAME: 555366
+ID: VLLBCTKFTIILHS
+IsSpectrumSearch: False
+INCHIKEY: VLLBCTKFTIILHS-UHFFFAOYSA-N
+SMILES: O=[N+]([O-])CC(=NC)N(CC1=CN=C(Cl)C=C1)CC
+RESOURCES: Database ID=555367
+SubstructureInChIKeys: VNWKTOKETHGBQD;XLYOFNOQVPJJNP;WDWDWGRYHDPSDS;OTMSDBZUPAUEDD;ROSDSFDQCJNGOL;JCXJVPUVTGWSNB;GETQZCLCWQTVFV;LIWAQLJGPBVORC;DAZXVJBJRMWXJP;HPNMFZURTQLUMO;JUJWROOIHBZHMG;GNVRJGIVDSQCOP;ITQTTZVARXURQS;ZMANZCXQSJIPKH
+SubstructureOntologies: CHEMONTID:0002500;NonID:H2O;CHEMONTID:0000117;CHEMONTID:0002228;NonID:NO2;CHEMONTID:0002239;CHEMONTID:0000089;CHEMONTID:0004152
+Ontology: 
+OntologyID: 
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 13294
+TotalScore: 4.776
+TotalHrRulesScore: 0
+TotalBondCleavageScore: 0
+TotalMassAccuracyScore: 0
+TotalFragmentLinkageScore: 0
+TotalBondDissociationEnergyScore: 0
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.1176
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 0
+

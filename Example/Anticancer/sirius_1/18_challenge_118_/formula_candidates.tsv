@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C42H70O12	[M + H]+	C42H70O12	26.31105722180036	26.31105722180036	0.0	7	0.11833103519521879	18.992420985158766	18.992420985158766	-5.890477332826733E-4	

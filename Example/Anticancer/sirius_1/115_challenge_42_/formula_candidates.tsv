@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C18H27NO3	[M + H]+	C18H27NO3	0.9057247858948436	0.9057247858948436	0.0	1	0.0	-1.1299783195476651	1.1299783195476651	-0.0014764241837829926	

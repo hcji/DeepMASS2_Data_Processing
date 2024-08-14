@@ -1,0 +1,1117 @@
+NAME: 104724
+ID: PGTQKVQDZHXLOP
+IsSpectrumSearch: False
+INCHIKEY: PGTQKVQDZHXLOP-UHFFFAOYSA-N
+SMILES: N=1C=C(N=CC1C)C(C)C
+RESOURCES: Database ID=104724,HMDB=HMDB0037151,YMDB=YMDB01446,FooDB=FDB016146,COCONUT=CNP0266332
+SubstructureInChIKeys: VNWKTOKETHGBQD;ATUOYWHBWRKTHZ;NNPPMTNAJDCUHE
+SubstructureOntologies: CHEMONTID:0002500;CHEMONTID:0004620
+Ontology: Pyrazines
+OntologyID: CHEMONTID:0000067
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 9104
+TotalScore: 6.1234
+TotalHrRulesScore: 0.5
+TotalBondCleavageScore: 0.1785
+TotalMassAccuracyScore: 0.4972
+TotalFragmentLinkageScore: 0.5
+TotalBondDissociationEnergyScore: 0.3718
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.4
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 3
+55.056023	0.010846	55.0542272001098	58.0782508850098	C4H10	-3	32.62	1.8	True	True	False	0		961	1	CC(C)C	3.63399995431645	1	0.0253124982118607	0.9840047955513	1	0.624682660553292
+96.080765	0.018601	96.0807758601977	97.0891494750977	C6H11N	-1	0.11	0.01	True	True	False	0		997	2	N(C=C)=CC(C)C	3.65168547237063	1	0.045562494546175	0.999999403953552	1	0.606123573870898
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	N=1C=C(N=CC1C)C(C)C	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 92353
+ID: ZVQXQPNJHRNGID
+IsSpectrumSearch: False
+INCHIKEY: ZVQXQPNJHRNGID-UHFFFAOYSA-N
+SMILES: N#CC(C)(C)C(C#N)(C)C
+RESOURCES: Database ID=92353,T3DB=T3D1713,BLEXP=BLEXPDB00000018745
+SubstructureInChIKeys: VNWKTOKETHGBQD;LELOWRISYMNNSU;ATUOYWHBWRKTHZ;IJDNQMDRQITEOD;NNPPMTNAJDCUHE;QWTDNUCVQCZILF;HNRMPXKDFBEGFZ
+SubstructureOntologies: CHEMONTID:0002500;CHEMONTID:0000362;CHEMONTID:0004620
+Ontology: Nitriles
+OntologyID: CHEMONTID:0000362
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 9128
+TotalScore: 6.1059
+TotalHrRulesScore: 0.5
+TotalBondCleavageScore: 0.3101
+TotalMassAccuracyScore: 0.4972
+TotalFragmentLinkageScore: 0.5
+TotalBondDissociationEnergyScore: 0.3889
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.3333
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 3
+55.056023	0.010846	55.0542272001098	58.0782508850098	C4H10	-3	32.62	1.8	True	True	False	0		1233	2	CC(C)C	3.58686211731459	1	0.0506249964237213	0.9840047955513	1	0.552232325339565
+96.080765	0.018601	96.0807758601977	97.0891494750977	C6H11N	-1	0.11	0.01	True	True	False	0		692	2	N#CC(C)(C)CC	4.59097379080914	1	0.809999942779541	0.999999403953552	1	0.780974444076045
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	N#CC(C)(C)C(C#N)(C)C	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 60369
+ID: WCRVGBFIFUGRPR
+IsSpectrumSearch: False
+INCHIKEY: WCRVGBFIFUGRPR-UHFFFAOYSA-N
+SMILES: [N-]=[N+]1C23CCC1(CC2)CC3
+RESOURCES: Database ID=60369
+SubstructureInChIKeys: OTMSDBZUPAUEDD;ATUOYWHBWRKTHZ;ROSDSFDQCJNGOL;IJDNQMDRQITEOD;NNPPMTNAJDCUHE;JJWLVOIRVHMVIS;LIWAQLJGPBVORC;RWRDLPDLKQPQOW;OFBQJSOFQDEBGM;QWTDNUCVQCZILF;GVWISOJSERXQBM;HPNMFZURTQLUMO;HQABUPZFAYXKJW;XHFGWHUWQXTGAT;AFABGHUZZDYHJO;PFEOZHBOMNWTJB;VLKZOEOYAKHREP;DPBLXKKOBLCELK;IMNFDUFMRHMDMM;VLJXXKKOSFGPHI;VLSTXUUYLIALPB;JVSWJIKNEAIKJW;TVMXDCGIABBOFY
+SubstructureOntologies: CHEMONTID:0002500;CHEMONTID:0002228;CHEMONTID:0004620;CHEMONTID:0000469;CHEMONTID:0000218
+Ontology: 
+OntologyID: 
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 9074
+TotalScore: 6.0989
+TotalHrRulesScore: 0.2
+TotalBondCleavageScore: 0.1819
+TotalMassAccuracyScore: 0.3332
+TotalFragmentLinkageScore: 0.3333
+TotalBondDissociationEnergyScore: 0.2408
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.6667
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 2
+96.080765	0.018601	96.0807785839867	98.0969772338867	C6H12N	-2	0.14	0.01	False	False	False	0		1110	2	C1CC2CCC1[NH2+]2	2.73607002574326	0.200000002980232	0.09112498909235	0.999999105930328	1	0.444945927740345
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	[N-]=[N+]1C23CCC1(CC2)CC3	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 418441
+ID: BTNXBLUGMAMSSH
+IsSpectrumSearch: False
+INCHIKEY: BTNXBLUGMAMSSH-UHFFFAOYSA-N
+SMILES: N#CCCCCCCC#N
+RESOURCES: Database ID=418441,STOFF=STOFF_7446,UNPD=UNPD182457,COCONUT=CNP0370279
+SubstructureInChIKeys: LELOWRISYMNNSU;OTMSDBZUPAUEDD;ATUOYWHBWRKTHZ;IJDNQMDRQITEOD;OFBQJSOFQDEBGM;VLKZOEOYAKHREP;IMNFDUFMRHMDMM;TVMXDCGIABBOFY
+SubstructureOntologies: CHEMONTID:0000362;CHEMONTID:0002500
+Ontology: Nitriles
+OntologyID: CHEMONTID:0000362
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 9128
+TotalScore: 6.0325
+TotalHrRulesScore: 0.5
+TotalBondCleavageScore: 0.4517
+TotalMassAccuracyScore: 0.4972
+TotalFragmentLinkageScore: 0.5
+TotalBondDissociationEnergyScore: 0.4464
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.1667
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 3
+55.056023	0.010846	55.0542272001098	58.0782508850098	C4H10	-3	32.62	1.8	True	True	False	0		692	2	CCCC	4.57497918240689	1	0.809999942779541	0.9840047955513	1	0.780974444076045
+96.080765	0.018601	96.0807758601977	97.0891494750977	C6H11N	-1	0.11	0.01	True	True	False	0		346	1	N#CCCCCC	4.79719531253111	1	0.899999976158142	0.999999403953552	1	0.897195932419415
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	N#CCCCCCCC#N	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 38403
+ID: FINHMKGKINIASC
+IsSpectrumSearch: False
+INCHIKEY: FINHMKGKINIASC-UHFFFAOYSA-N
+SMILES: N=1C(=C(N=C(C1C)C)C)C
+RESOURCES: Database ID=38403,HMDB=HMDB0036584,ChEBI=CHEBI:133246,FooDB=FDB015495,PubChem=14296,UNPD=UNPD90354,BLEXP=BLEXPDB00000014296,NPA=NPA015694,COCONUT=CNP0327107
+SubstructureInChIKeys: VNWKTOKETHGBQD
+SubstructureOntologies: CHEMONTID:0002500
+Ontology: Pyrazines
+OntologyID: CHEMONTID:0000067
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 9104
+TotalScore: 5.9909
+TotalHrRulesScore: 0.5
+TotalBondCleavageScore: 0.1835
+TotalMassAccuracyScore: 0.4972
+TotalFragmentLinkageScore: 0.5
+TotalBondDissociationEnergyScore: 0.4248
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.2
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 3
+55.056023	0.010846	55.0542255672289	56.0625991821289	C4H8	-1	32.65	1.8	True	True	False	0		610	1	C(=CC)C	3.81750844899831	1	0.0506249964237213	0.983975946903229	1	0.782907505671358
+96.080765	0.018601	96.0807758601977	97.0891494750977	C6H11N	-1	0.11	0.01	True	True	False	0		651	1	N(=CC)C(=CC)C	3.81673727326883	1	0.0506249964237213	0.999999403953552	1	0.766112872891555
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	N=1C(=C(N=C(C1C)C)C)C	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 98704
+ID: CIBKSMZEVHTQLG
+IsSpectrumSearch: False
+INCHIKEY: CIBKSMZEVHTQLG-UHFFFAOYSA-N
+SMILES: N=1C=C(N=C(C1C)C)CC
+RESOURCES: Database ID=98704,HMDB=HMDB0029727,FooDB=FDB000923,UNPD=UNPD107316,COCONUT=CNP0231860
+SubstructureInChIKeys: VNWKTOKETHGBQD;OTMSDBZUPAUEDD;ATUOYWHBWRKTHZ
+SubstructureOntologies: CHEMONTID:0002500
+Ontology: Pyrazines
+OntologyID: CHEMONTID:0000067
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 9104
+TotalScore: 5.9909
+TotalHrRulesScore: 0.5
+TotalBondCleavageScore: 0.1835
+TotalMassAccuracyScore: 0.4972
+TotalFragmentLinkageScore: 0.5
+TotalBondDissociationEnergyScore: 0.4248
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.2
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 3
+55.056023	0.010846	55.0542255672289	56.0625991821289	C4H8	-1	32.65	1.8	True	True	False	0		610	1	C=CCC	3.81750844899831	1	0.0506249964237213	0.983975946903229	1	0.782907505671358
+96.080765	0.018601	96.0807758601977	97.0891494750977	C6H11N	-1	0.11	0.01	True	True	False	0		651	1	N(=CC)C(=C)CC	3.81673727326883	1	0.0506249964237213	0.999999403953552	1	0.766112872891555
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	N=1C=C(N=C(C1C)C)CC	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 107271
+ID: DAOYAWODBHNYDA
+IsSpectrumSearch: False
+INCHIKEY: DAOYAWODBHNYDA-UHFFFAOYSA-N
+SMILES: N=1C=C(N=CC1C)CCC
+RESOURCES: Database ID=107271,HMDB=HMDB0040000,YMDB=YMDB01504,FooDB=FDB019682,COCONUT=CNP0002574
+SubstructureInChIKeys: VNWKTOKETHGBQD;OTMSDBZUPAUEDD;ATUOYWHBWRKTHZ;IJDNQMDRQITEOD
+SubstructureOntologies: CHEMONTID:0002500
+Ontology: Pyrazines
+OntologyID: CHEMONTID:0000067
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 9104
+TotalScore: 5.9764
+TotalHrRulesScore: 0.5
+TotalBondCleavageScore: 0.1793
+TotalMassAccuracyScore: 0.4972
+TotalFragmentLinkageScore: 0.5
+TotalBondDissociationEnergyScore: 0.4029
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.2
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 3
+55.056023	0.010846	55.0542272001098	58.0782508850098	C4H10	-3	32.62	1.8	True	True	False	0		907	1	CCCC	3.66084809563426	1	0.0253124982118607	0.9840047955513	1	0.651530801871103
+96.080765	0.018601	96.0807758601977	97.0891494750977	C6H11N	-1	0.11	0.01	True	True	False	0		651	1	N(=C)C(=C)CCC	3.81673727326883	1	0.0506249964237213	0.999999403953552	1	0.766112872891555
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	N=1C=C(N=CC1C)CCC	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 104440
+ID: QDWOWLUANUBTGE
+IsSpectrumSearch: False
+INCHIKEY: QDWOWLUANUBTGE-UHFFFAOYSA-N
+SMILES: N=1C=C(N=C(C1)CC)CC
+RESOURCES: Database ID=104440,HMDB=HMDB0036809,FooDB=FDB015755,UNPD=UNPD97504,COCONUT=CNP0332253
+SubstructureInChIKeys: VNWKTOKETHGBQD;OTMSDBZUPAUEDD;ATUOYWHBWRKTHZ
+SubstructureOntologies: CHEMONTID:0002500
+Ontology: Pyrazines
+OntologyID: CHEMONTID:0000067
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 9104
+TotalScore: 5.976
+TotalHrRulesScore: 0.5
+TotalBondCleavageScore: 0.1793
+TotalMassAccuracyScore: 0.4972
+TotalFragmentLinkageScore: 0.5
+TotalBondDissociationEnergyScore: 0.4024
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.2
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 3
+55.056023	0.010846	55.0542255672289	56.0625991821289	C4H8	-1	32.65	1.8	True	True	False	0		610	1	C=CCC	3.81750844899831	1	0.0506249964237213	0.983975946903229	1	0.782907505671358
+96.080765	0.018601	96.0807736783812	99.1047973632813	C6H13N	-3	0.09	0.01	True	True	False	0		948	1	N(=CCC)CCC	3.65656261176038	1	0.0253124982118607	0.999999642372131	1	0.631250471176383
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	N=1C=C(N=C(C1)CC)CC	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 104439
+ID: WAVOLMBVDCRBGR
+IsSpectrumSearch: False
+INCHIKEY: WAVOLMBVDCRBGR-UHFFFAOYSA-N
+SMILES: N=1C=C(N=CC1CC)CC
+RESOURCES: Database ID=104439,HMDB=HMDB0036808,FooDB=FDB015754,UNPD=UNPD126235,COCONUT=CNP0205141
+SubstructureInChIKeys: VNWKTOKETHGBQD;OTMSDBZUPAUEDD;ATUOYWHBWRKTHZ
+SubstructureOntologies: CHEMONTID:0002500
+Ontology: Pyrazines
+OntologyID: CHEMONTID:0000067
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 9104
+TotalScore: 5.9741
+TotalHrRulesScore: 0.5
+TotalBondCleavageScore: 0.1827
+TotalMassAccuracyScore: 0.4972
+TotalFragmentLinkageScore: 0.5
+TotalBondDissociationEnergyScore: 0.3982
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.2
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 3
+55.056023	0.010846	55.0542255672289	56.0625991821289	C4H8	-1	32.65	1.8	True	True	False	0		610	1	C=CCC	3.81750844899831	1	0.0506249964237213	0.983975946903229	1	0.782907505671358
+96.080765	0.018601	96.0807758601977	97.0891494750977	C6H11N	-1	0.11	0.01	True	True	False	0		997	2	N(C=CC)=CCC	3.65168547237063	1	0.045562494546175	0.999999403953552	1	0.606123573870898
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	N=1C=C(N=CC1CC)CC	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 108441
+ID: XAWKNALRUSOTOY
+IsSpectrumSearch: False
+INCHIKEY: XAWKNALRUSOTOY-UHFFFAOYSA-N
+SMILES: N=1C=CN=C(C1C)CCC
+RESOURCES: Database ID=108441,HMDB=HMDB0041252,FooDB=FDB021160,COCONUT=CNP0076160
+SubstructureInChIKeys: VNWKTOKETHGBQD;OTMSDBZUPAUEDD;ATUOYWHBWRKTHZ;IJDNQMDRQITEOD
+SubstructureOntologies: CHEMONTID:0002500
+Ontology: Pyrazines
+OntologyID: CHEMONTID:0000067
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 9104
+TotalScore: 5.9736
+TotalHrRulesScore: 0.5
+TotalBondCleavageScore: 0.1793
+TotalMassAccuracyScore: 0.4972
+TotalFragmentLinkageScore: 0.5
+TotalBondDissociationEnergyScore: 0.3985
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.2
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 3
+55.056023	0.010846	55.0542272001098	58.0782508850098	C4H10	-3	32.62	1.8	True	True	False	0		961	1	CCCC	3.63399995431645	1	0.0253124982118607	0.9840047955513	1	0.624682660553292
+96.080765	0.018601	96.0807758601977	97.0891494750977	C6H11N	-1	0.11	0.01	True	True	False	0		651	1	N(C=C)=CCCC	3.81673727326883	1	0.0506249964237213	0.999999403953552	1	0.766112872891555
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	N=1C=CN=C(C1C)CCC	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 107529
+ID: JZBCTZLGKSYRSF
+IsSpectrumSearch: False
+INCHIKEY: JZBCTZLGKSYRSF-UHFFFAOYSA-N
+SMILES: N=1C=C(N=C(C1CC)C)C
+RESOURCES: Database ID=107529,HMDB=HMDB0040299,YMDB=YMDB01441,FooDB=FDB020021;FDB029773,UNPD=UNPD96049,NPA=NPA003443,COCONUT=CNP0193103
+SubstructureInChIKeys: VNWKTOKETHGBQD;OTMSDBZUPAUEDD;ATUOYWHBWRKTHZ
+SubstructureOntologies: CHEMONTID:0002500
+Ontology: Pyrazines
+OntologyID: CHEMONTID:0000067
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 9104
+TotalScore: 5.908
+TotalHrRulesScore: 0.5
+TotalBondCleavageScore: 0.177
+TotalMassAccuracyScore: 0.4972
+TotalFragmentLinkageScore: 0.5
+TotalBondDissociationEnergyScore: 0.2944
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.2
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 3
+55.056023	0.010846	55.0542272001098	58.0782508850098	C4H10	-3	32.62	1.8	True	True	False	0		1576	2	CCCC	2.99539541918784	1	0.0113906236365438	0.9840047955513	1	0
+96.080765	0.018601	96.0807758601977	97.0891494750977	C6H11N	-1	0.11	0.01	True	True	False	0		651	1	N(C=CC)=CCC	3.81673727326883	1	0.0506249964237213	0.999999403953552	1	0.766112872891555
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	N=1C=C(N=C(C1CC)C)C	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 107530
+ID: WHMWOHBXYIZFPF
+IsSpectrumSearch: False
+INCHIKEY: WHMWOHBXYIZFPF-UHFFFAOYSA-N
+SMILES: N=1C=C(N=C(C1C)CC)C
+RESOURCES: Database ID=107530,HMDB=HMDB0032276,FooDB=FDB009405;FDB020022,UNPD=UNPD152858,NPA=NPA001872,COCONUT=CNP0404153
+SubstructureInChIKeys: VNWKTOKETHGBQD;OTMSDBZUPAUEDD;ATUOYWHBWRKTHZ
+SubstructureOntologies: CHEMONTID:0002500
+Ontology: Pyrazines
+OntologyID: CHEMONTID:0000067
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 9104
+TotalScore: 5.908
+TotalHrRulesScore: 0.5
+TotalBondCleavageScore: 0.177
+TotalMassAccuracyScore: 0.4972
+TotalFragmentLinkageScore: 0.5
+TotalBondDissociationEnergyScore: 0.2944
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.2
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 3
+55.056023	0.010846	55.0542272001098	58.0782508850098	C4H10	-3	32.62	1.8	True	True	False	0		1576	2	CCCC	2.99539541918784	1	0.0113906236365438	0.9840047955513	1	0
+96.080765	0.018601	96.0807758601977	97.0891494750977	C6H11N	-1	0.11	0.01	True	True	False	0		651	1	N(=CCC)C(=C)C	3.81673727326883	1	0.0506249964237213	0.999999403953552	1	0.766112872891555
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	N=1C=C(N=C(C1C)CC)C	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 108442
+ID: GZXXANJCCWGCSV
+IsSpectrumSearch: False
+INCHIKEY: GZXXANJCCWGCSV-UHFFFAOYSA-N
+SMILES: N=1C=CN=C(C1CC)CC
+RESOURCES: Database ID=108442,HMDB=HMDB0041253,FooDB=FDB021161,COCONUT=CNP0079931
+SubstructureInChIKeys: VNWKTOKETHGBQD;OTMSDBZUPAUEDD;ATUOYWHBWRKTHZ
+SubstructureOntologies: CHEMONTID:0002500
+Ontology: Pyrazines
+OntologyID: CHEMONTID:0000067
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 9104
+TotalScore: 5.8945
+TotalHrRulesScore: 0.5
+TotalBondCleavageScore: 0.1728
+TotalMassAccuracyScore: 0.4972
+TotalFragmentLinkageScore: 0.5
+TotalBondDissociationEnergyScore: 0.2742
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.2
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 3
+55.056023	0.010846	55.0542272001098	58.0782508850098	C4H10	-3	32.62	1.8	True	True	False	0		1576	2	CCCC	2.99539541918784	1	0.0113906236365438	0.9840047955513	1	0
+96.080765	0.018601	96.0807736783812	99.1047973632813	C6H13N	-3	0.09	0.01	True	True	False	0		920	1	N=C(CC)CCC	3.67048161818064	1	0.0253124982118607	0.999999642372131	1	0.645169477596651
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	N=1C=CN=C(C1CC)CC	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 527345
+ID: SLZCOYDOFRTTHF
+IsSpectrumSearch: False
+INCHIKEY: SLZCOYDOFRTTHF-UHFFFAOYSA-N
+SMILES: N=1C=CC=C(C1)CN(C)C
+RESOURCES: Database ID=527345
+SubstructureInChIKeys: VNWKTOKETHGBQD;ROSDSFDQCJNGOL;GETQZCLCWQTVFV;LIWAQLJGPBVORC;DAZXVJBJRMWXJP;JUJWROOIHBZHMG;ITQTTZVARXURQS
+SubstructureOntologies: CHEMONTID:0002500;CHEMONTID:0002228;CHEMONTID:0002239;CHEMONTID:0000089;CHEMONTID:0004152
+Ontology: 
+OntologyID: 
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 9009
+TotalScore: 5.7399
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.4286
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	N=1C=CC=C(C1)CN(C)C	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 4324
+ID: BZORFPDSXLZWJF
+IsSpectrumSearch: False
+INCHIKEY: BZORFPDSXLZWJF-UHFFFAOYSA-N
+SMILES: NC1=CC=C(C=C1)N(C)C
+RESOURCES: Database ID=4324,ChEBI=CHEBI:15783,STOFF=STOFF_10445,ECMDB=ECMDB20354,BLEXP=BLEXPDB00000007472,COCONUT=CNP0275301
+SubstructureInChIKeys: VNWKTOKETHGBQD;QGZKDVFQNNGYKY;ROSDSFDQCJNGOL;GETQZCLCWQTVFV;UHOVQNZJYSORNB;PAYRUJLWNCNPSJ;AFBPFSWMIHJQDM
+SubstructureOntologies: CHEMONTID:0002500;NonID:NH2;CHEMONTID:0002228;CHEMONTID:0002239;CHEMONTID:0002279;CHEMONTID:0000284;CHEMONTID:0003924
+Ontology: Dialkylarylamines
+OntologyID: CHEMONTID:0003901
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 8946
+TotalScore: 5.6605
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.3333
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	NC1=CC=C(C=C1)N(C)C	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 85738
+ID: OCIDXARMXNJACB
+IsSpectrumSearch: False
+INCHIKEY: OCIDXARMXNJACB-UHFFFAOYSA-N
+SMILES: NCCNC=1C=CC=CC1
+RESOURCES: Database ID=85738
+SubstructureInChIKeys: QGZKDVFQNNGYKY;OTMSDBZUPAUEDD;BAVYZALUXZFZLV;QUSNBJAOOMFDIB;ROSDSFDQCJNGOL;LIWAQLJGPBVORC;UHOVQNZJYSORNB;PAYRUJLWNCNPSJ;AFBPFSWMIHJQDM
+SubstructureOntologies: NonID:NH2;CHEMONTID:0002500;CHEMONTID:0000469;CHEMONTID:0002228;CHEMONTID:0002279;CHEMONTID:0000284;CHEMONTID:0003924
+Ontology: 
+OntologyID: 
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 8962
+TotalScore: 5.6605
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.3333
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	NCCNC=1C=CC=CC1	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 259863
+ID: HJXIRCMNJLIHQR
+IsSpectrumSearch: False
+INCHIKEY: HJXIRCMNJLIHQR-UHFFFAOYSA-N
+SMILES: NC=1C=CC=CC1N(C)C
+RESOURCES: Database ID=259863,BLEXP=BLEXPDB00000076083
+SubstructureInChIKeys: VNWKTOKETHGBQD;QGZKDVFQNNGYKY;ROSDSFDQCJNGOL;GETQZCLCWQTVFV;UHOVQNZJYSORNB;PAYRUJLWNCNPSJ;AFBPFSWMIHJQDM
+SubstructureOntologies: CHEMONTID:0002500;NonID:NH2;CHEMONTID:0002228;CHEMONTID:0002239;CHEMONTID:0002279;CHEMONTID:0000284;CHEMONTID:0003924
+Ontology: Dialkylarylamines
+OntologyID: CHEMONTID:0003901
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 8946
+TotalScore: 5.6605
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.3333
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	NC=1C=CC=CC1N(C)C	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 538911
+ID: HHSBHVJQXZLIRW
+IsSpectrumSearch: False
+INCHIKEY: HHSBHVJQXZLIRW-UHFFFAOYSA-N
+SMILES: NC1=CC=CC(=C1)N(C)C
+RESOURCES: Database ID=538911
+SubstructureInChIKeys: VNWKTOKETHGBQD;QGZKDVFQNNGYKY;ROSDSFDQCJNGOL;GETQZCLCWQTVFV;UHOVQNZJYSORNB;PAYRUJLWNCNPSJ;AFBPFSWMIHJQDM
+SubstructureOntologies: CHEMONTID:0002500;NonID:NH2;CHEMONTID:0002228;CHEMONTID:0002239;CHEMONTID:0002279;CHEMONTID:0000284;CHEMONTID:0003924
+Ontology: 
+OntologyID: 
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 8946
+TotalScore: 5.6605
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.3333
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	NC1=CC=CC(=C1)N(C)C	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 13986
+ID: UUQMNUMQCIQDMZ
+IsSpectrumSearch: False
+INCHIKEY: UUQMNUMQCIQDMZ-UHFFFAOYSA-N
+SMILES: N=1C=CC=CC1CCNC
+RESOURCES: Database ID=13986,HMDB=HMDB0015644,ChEBI=CHEBI:35677,DrugBank=DB06698,STOFF=STOFF_2638,Urine=HMDB0015644,Serum=HMDB0015644,BLEXP=BLEXPDB00000002366,COCONUT=CNP0209820
+SubstructureInChIKeys: VNWKTOKETHGBQD;OTMSDBZUPAUEDD;ATUOYWHBWRKTHZ;ROSDSFDQCJNGOL;LIWAQLJGPBVORC;GVWISOJSERXQBM;JUJWROOIHBZHMG;ITQTTZVARXURQS
+SubstructureOntologies: CHEMONTID:0002500;CHEMONTID:0002228;CHEMONTID:0000089;CHEMONTID:0004152
+Ontology: Aralkylamines
+OntologyID: CHEMONTID:0003899
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 9025
+TotalScore: 5.6208
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.2857
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	N=1C=CC=CC1CCNC	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 531568
+ID: NQMUUQGZZLWYGM
+IsSpectrumSearch: False
+INCHIKEY: NQMUUQGZZLWYGM-UHFFFAOYSA-N
+SMILES: N=1C(=CC=CC1CNC)C
+RESOURCES: Database ID=531568
+SubstructureInChIKeys: VNWKTOKETHGBQD;ROSDSFDQCJNGOL;LIWAQLJGPBVORC;JUJWROOIHBZHMG;ITQTTZVARXURQS
+SubstructureOntologies: CHEMONTID:0002500;CHEMONTID:0002228;CHEMONTID:0000089;CHEMONTID:0004152
+Ontology: 
+OntologyID: 
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 9025
+TotalScore: 5.6208
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.2857
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	N=1C(=CC=CC1CNC)C	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 73602
+ID: PVRZMTHMPKVOBP
+IsSpectrumSearch: False
+INCHIKEY: PVRZMTHMPKVOBP-UHFFFAOYSA-N
+SMILES: C=1C=C(C=CC1NC)NC
+RESOURCES: Database ID=73602
+SubstructureInChIKeys: VNWKTOKETHGBQD;ROSDSFDQCJNGOL;UHOVQNZJYSORNB;PAYRUJLWNCNPSJ;AFBPFSWMIHJQDM
+SubstructureOntologies: CHEMONTID:0002500;CHEMONTID:0002228;CHEMONTID:0002279;CHEMONTID:0000284;CHEMONTID:0003924
+Ontology: 
+OntologyID: 
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 8946
+TotalScore: 5.5911
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.25
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	C=1C=C(C=CC1NC)NC	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 73626
+ID: HHRZAEJMHSGZNP
+IsSpectrumSearch: False
+INCHIKEY: HHRZAEJMHSGZNP-UHFFFAOYSA-N
+SMILES: NNC(C=1C=CC=CC1)C
+RESOURCES: Database ID=73626,ChEBI=CHEBI:134728,BLEXP=BLEXPDB00000006179
+SubstructureInChIKeys: VNWKTOKETHGBQD;QGZKDVFQNNGYKY;ATUOYWHBWRKTHZ;JJWLVOIRVHMVIS;UHOVQNZJYSORNB;YXFVVABEGXRONW;YNQLUTRBYVCPMQ
+SubstructureOntologies: CHEMONTID:0002500;NonID:NH2;CHEMONTID:0000469;CHEMONTID:0002279;CHEMONTID:0001091
+Ontology: Benzene and substituted derivatives
+OntologyID: CHEMONTID:0002279
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 8865
+TotalScore: 5.5911
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.25
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	NNC(C=1C=CC=CC1)C	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 473726
+ID: GLTIIUKSLNSXKM
+IsSpectrumSearch: False
+INCHIKEY: GLTIIUKSLNSXKM-UHFFFAOYSA-N
+SMILES: N=1C=C(C=CC1C)C(N)C
+RESOURCES: Database ID=473726,KNApSAcK=C00027951,UNPD=UNPD67927,COCONUT=CNP0243226
+SubstructureInChIKeys: VNWKTOKETHGBQD;QGZKDVFQNNGYKY;BAVYZALUXZFZLV;ATUOYWHBWRKTHZ;QUSNBJAOOMFDIB;JJWLVOIRVHMVIS;JUJWROOIHBZHMG;ITQTTZVARXURQS
+SubstructureOntologies: CHEMONTID:0002500;NonID:NH2;CHEMONTID:0000469;CHEMONTID:0000089;CHEMONTID:0004152
+Ontology: Methylpyridines
+OntologyID: CHEMONTID:0004152
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 9041
+TotalScore: 5.5911
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.25
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	N=1C=C(C=CC1C)C(N)C	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 532659
+ID: PDCOMACPZBDJAI
+IsSpectrumSearch: False
+INCHIKEY: PDCOMACPZBDJAI-UHFFFAOYSA-N
+SMILES: N=1C=C(C=C(C1CN)C)C
+RESOURCES: Database ID=532659
+SubstructureInChIKeys: VNWKTOKETHGBQD;QGZKDVFQNNGYKY;BAVYZALUXZFZLV;QUSNBJAOOMFDIB;JUJWROOIHBZHMG;ITQTTZVARXURQS
+SubstructureOntologies: CHEMONTID:0002500;NonID:NH2;CHEMONTID:0000469;CHEMONTID:0000089;CHEMONTID:0004152
+Ontology: 
+OntologyID: 
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 9041
+TotalScore: 5.5911
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.25
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	N=1C=C(C=C(C1CN)C)C	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 510101
+ID: HBLPYXIZPMDWIO
+IsSpectrumSearch: False
+INCHIKEY: HBLPYXIZPMDWIO-UHFFFAOYSA-N
+SMILES: NC1=CC=CC(=C1)CNC
+RESOURCES: Database ID=510101,STOFF=STOFF_6654
+SubstructureInChIKeys: VNWKTOKETHGBQD;QGZKDVFQNNGYKY;ROSDSFDQCJNGOL;LIWAQLJGPBVORC;UHOVQNZJYSORNB;YXFVVABEGXRONW;PAYRUJLWNCNPSJ;RNVCVTLRINQCPJ;RIWRFSMVIUAEBX
+SubstructureOntologies: CHEMONTID:0002500;NonID:NH2;CHEMONTID:0002228;CHEMONTID:0002279;CHEMONTID:0001091;CHEMONTID:0000284;CHEMONTID:0003964;CHEMONTID:0000185
+Ontology: Phenylmethylamines
+OntologyID: CHEMONTID:0000185
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 8962
+TotalScore: 5.5342
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.1818
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	NC1=CC=CC(=C1)CNC	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 535231
+ID: LNPMZQXEPNWCMG
+IsSpectrumSearch: False
+INCHIKEY: LNPMZQXEPNWCMG-UHFFFAOYSA-N
+SMILES: NC1=CC=C(C=C1)CCN
+RESOURCES: Database ID=535231
+SubstructureInChIKeys: QGZKDVFQNNGYKY;OTMSDBZUPAUEDD;BAVYZALUXZFZLV;ATUOYWHBWRKTHZ;QUSNBJAOOMFDIB;WGYKZJWCGVVSQN;UHOVQNZJYSORNB;YXFVVABEGXRONW;PAYRUJLWNCNPSJ;YNQLUTRBYVCPMQ;RNVCVTLRINQCPJ;BHHGXPLMPWCGHP
+SubstructureOntologies: NonID:NH2;CHEMONTID:0002500;CHEMONTID:0000469;CHEMONTID:0002279;CHEMONTID:0001091;CHEMONTID:0000284;CHEMONTID:0003964;CHEMONTID:0000186
+Ontology: 
+OntologyID: 
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 8978
+TotalScore: 5.5342
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.1818
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	NC1=CC=C(C=C1)CCN	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 536371
+ID: LJQFYBCLMVVNAQ
+IsSpectrumSearch: False
+INCHIKEY: LJQFYBCLMVVNAQ-UHFFFAOYSA-N
+SMILES: NC1=CC=CC(=C1)CCN
+RESOURCES: Database ID=536371
+SubstructureInChIKeys: QGZKDVFQNNGYKY;OTMSDBZUPAUEDD;BAVYZALUXZFZLV;ATUOYWHBWRKTHZ;QUSNBJAOOMFDIB;WGYKZJWCGVVSQN;UHOVQNZJYSORNB;YXFVVABEGXRONW;PAYRUJLWNCNPSJ;YNQLUTRBYVCPMQ;RNVCVTLRINQCPJ;BHHGXPLMPWCGHP
+SubstructureOntologies: NonID:NH2;CHEMONTID:0002500;CHEMONTID:0000469;CHEMONTID:0002279;CHEMONTID:0001091;CHEMONTID:0000284;CHEMONTID:0003964;CHEMONTID:0000186
+Ontology: 
+OntologyID: 
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 8978
+TotalScore: 5.5342
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.1818
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	NC1=CC=CC(=C1)CCN	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 538657
+ID: OEWYVHJLQDINFS
+IsSpectrumSearch: False
+INCHIKEY: OEWYVHJLQDINFS-UHFFFAOYSA-N
+SMILES: NC=1C=CC=CC1CCN
+RESOURCES: Database ID=538657
+SubstructureInChIKeys: QGZKDVFQNNGYKY;OTMSDBZUPAUEDD;BAVYZALUXZFZLV;ATUOYWHBWRKTHZ;QUSNBJAOOMFDIB;WGYKZJWCGVVSQN;UHOVQNZJYSORNB;YXFVVABEGXRONW;PAYRUJLWNCNPSJ;YNQLUTRBYVCPMQ;RNVCVTLRINQCPJ;BHHGXPLMPWCGHP
+SubstructureOntologies: NonID:NH2;CHEMONTID:0002500;CHEMONTID:0000469;CHEMONTID:0002279;CHEMONTID:0001091;CHEMONTID:0000284;CHEMONTID:0003964;CHEMONTID:0000186
+Ontology: 
+OntologyID: 
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 8978
+TotalScore: 5.5342
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.1818
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	NC=1C=CC=CC1CCN	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 77760
+ID: GKXVJHDEWHKBFH
+IsSpectrumSearch: False
+INCHIKEY: GKXVJHDEWHKBFH-UHFFFAOYSA-N
+SMILES: NCC=1C=CC=CC1CN
+RESOURCES: Database ID=77760
+SubstructureInChIKeys: QGZKDVFQNNGYKY;BAVYZALUXZFZLV;QUSNBJAOOMFDIB;UHOVQNZJYSORNB;YXFVVABEGXRONW
+SubstructureOntologies: NonID:NH2;CHEMONTID:0000469;CHEMONTID:0002279;CHEMONTID:0001091
+Ontology: 
+OntologyID: 
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 8978
+TotalScore: 5.4869
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.125
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	NCC=1C=CC=CC1CN	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 82555
+ID: ISKQADXMHQSTHK
+IsSpectrumSearch: False
+INCHIKEY: ISKQADXMHQSTHK-UHFFFAOYSA-N
+SMILES: NCC1=CC=C(C=C1)CN
+RESOURCES: Database ID=82555
+SubstructureInChIKeys: QGZKDVFQNNGYKY;BAVYZALUXZFZLV;QUSNBJAOOMFDIB;UHOVQNZJYSORNB;YXFVVABEGXRONW
+SubstructureOntologies: NonID:NH2;CHEMONTID:0000469;CHEMONTID:0002279;CHEMONTID:0001091
+Ontology: 
+OntologyID: 
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 8978
+TotalScore: 5.4869
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.125
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	NCC1=CC=C(C=C1)CN	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 92088
+ID: FDLQZKYLHJJBHD
+IsSpectrumSearch: False
+INCHIKEY: FDLQZKYLHJJBHD-UHFFFAOYSA-N
+SMILES: NCC1=CC=CC(=C1)CN
+RESOURCES: Database ID=92088,STOFF=STOFF_5741
+SubstructureInChIKeys: QGZKDVFQNNGYKY;BAVYZALUXZFZLV;QUSNBJAOOMFDIB;UHOVQNZJYSORNB;YXFVVABEGXRONW
+SubstructureOntologies: NonID:NH2;CHEMONTID:0000469;CHEMONTID:0002279;CHEMONTID:0001091
+Ontology: Phenylmethylamines
+OntologyID: CHEMONTID:0000185
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 8978
+TotalScore: 5.4869
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.125
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	NCC1=CC=CC(=C1)CN	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 537994
+ID: LRDZBVAFUXSPGH
+IsSpectrumSearch: False
+INCHIKEY: LRDZBVAFUXSPGH-UHFFFAOYSA-N
+SMILES: NNCC=1C=CC=C(C1)C
+RESOURCES: Database ID=537994
+SubstructureInChIKeys: VNWKTOKETHGBQD;QGZKDVFQNNGYKY;UHOVQNZJYSORNB;YXFVVABEGXRONW
+SubstructureOntologies: CHEMONTID:0002500;NonID:NH2;CHEMONTID:0002279;CHEMONTID:0001091
+Ontology: 
+OntologyID: 
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 8865
+TotalScore: 5.4869
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.125
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	NNCC=1C=CC=C(C1)C	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 47240
+ID: RMUCZJUITONUFY
+IsSpectrumSearch: False
+INCHIKEY: RMUCZJUITONUFY-UHFFFAOYSA-N
+SMILES: NNCCC=1C=CC=CC1
+RESOURCES: Database ID=47240,HMDB=HMDB0014918,ChEBI=CHEBI:8060,DrugBank=DB00780,T3DB=T3D2889,Urine=HMDB0014918,Serum=HMDB0014918,BLEXP=BLEXPDB00000003675,COCONUT=CNP0340893
+SubstructureInChIKeys: QGZKDVFQNNGYKY;OTMSDBZUPAUEDD;ATUOYWHBWRKTHZ;UHOVQNZJYSORNB;YXFVVABEGXRONW;YNQLUTRBYVCPMQ;BHHGXPLMPWCGHP
+SubstructureOntologies: NonID:NH2;CHEMONTID:0002500;CHEMONTID:0002279;CHEMONTID:0001091;CHEMONTID:0000186
+Ontology: Benzene and substituted derivatives
+OntologyID: CHEMONTID:0002279
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 8865
+TotalScore: 5.4753
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.1111
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	NNCCC=1C=CC=CC1	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 18702
+ID: BWAPJIHJXDYDPW
+IsSpectrumSearch: False
+INCHIKEY: BWAPJIHJXDYDPW-UHFFFAOYSA-N
+SMILES: NC=1C=C(C(N)=CC1C)C
+RESOURCES: Database ID=18702,ChEBI=CHEBI:53613
+SubstructureInChIKeys: VNWKTOKETHGBQD;QGZKDVFQNNGYKY;UHOVQNZJYSORNB;YXFVVABEGXRONW;PAYRUJLWNCNPSJ;RNVCVTLRINQCPJ
+SubstructureOntologies: CHEMONTID:0002500;NonID:NH2;CHEMONTID:0002279;CHEMONTID:0001091;CHEMONTID:0000284;CHEMONTID:0003964
+Ontology: p-Xylenes
+OntologyID: CHEMONTID:0004211
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 8978
+TotalScore: 5.4661
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.1
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	NC=1C=C(C(N)=CC1C)C	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 51413
+ID: XVBLEUZLLURXTF
+IsSpectrumSearch: False
+INCHIKEY: XVBLEUZLLURXTF-UHFFFAOYSA-N
+SMILES: NC1=CC=C(C(N)=C1C)C
+RESOURCES: Database ID=51413,BLEXP=BLEXPDB00004625581
+SubstructureInChIKeys: VNWKTOKETHGBQD;QGZKDVFQNNGYKY;UHOVQNZJYSORNB;YXFVVABEGXRONW;PAYRUJLWNCNPSJ;RNVCVTLRINQCPJ
+SubstructureOntologies: CHEMONTID:0002500;NonID:NH2;CHEMONTID:0002279;CHEMONTID:0001091;CHEMONTID:0000284;CHEMONTID:0003964
+Ontology: m-Xylenes
+OntologyID: CHEMONTID:0004209
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 8978
+TotalScore: 5.4661
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.1
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	NC1=CC=C(C(N)=C1C)C	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 73378
+ID: XSZYBMMYQCYIPC
+IsSpectrumSearch: False
+INCHIKEY: XSZYBMMYQCYIPC-UHFFFAOYSA-N
+SMILES: NC=1C=C(C(=CC1N)C)C
+RESOURCES: Database ID=73378,DrugBank=DB03180,UNPD=UNPD155882,BLEXP=BLEXPDB00000076635,COCONUT=CNP0106845
+SubstructureInChIKeys: VNWKTOKETHGBQD;QGZKDVFQNNGYKY;UHOVQNZJYSORNB;YXFVVABEGXRONW;PAYRUJLWNCNPSJ;RNVCVTLRINQCPJ
+SubstructureOntologies: CHEMONTID:0002500;NonID:NH2;CHEMONTID:0002279;CHEMONTID:0001091;CHEMONTID:0000284;CHEMONTID:0003964
+Ontology: o-Xylenes
+OntologyID: CHEMONTID:0004210
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 8978
+TotalScore: 5.4661
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.1
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	NC=1C=C(C(=CC1N)C)C	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 524852
+ID: RZBWGEXTRWUGBV
+IsSpectrumSearch: False
+INCHIKEY: RZBWGEXTRWUGBV-UHFFFAOYSA-N
+SMILES: NC1=C(N)C(=CC=C1C)C
+RESOURCES: Database ID=524852
+SubstructureInChIKeys: VNWKTOKETHGBQD;QGZKDVFQNNGYKY;UHOVQNZJYSORNB;YXFVVABEGXRONW;PAYRUJLWNCNPSJ;RNVCVTLRINQCPJ
+SubstructureOntologies: CHEMONTID:0002500;NonID:NH2;CHEMONTID:0002279;CHEMONTID:0001091;CHEMONTID:0000284;CHEMONTID:0003964
+Ontology: 
+OntologyID: 
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 8978
+TotalScore: 5.4661
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.1
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	NC1=C(N)C(=CC=C1C)C	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 530739
+ID: CCHJMGDYNLOYKM
+IsSpectrumSearch: False
+INCHIKEY: CCHJMGDYNLOYKM-UHFFFAOYSA-N
+SMILES: NNC=1C(=CC=CC1C)C
+RESOURCES: Database ID=530739
+SubstructureInChIKeys: VNWKTOKETHGBQD;QGZKDVFQNNGYKY;UHOVQNZJYSORNB;YXFVVABEGXRONW;PAYRUJLWNCNPSJ;RNVCVTLRINQCPJ
+SubstructureOntologies: CHEMONTID:0002500;NonID:NH2;CHEMONTID:0002279;CHEMONTID:0001091;CHEMONTID:0000284;CHEMONTID:0003964
+Ontology: 
+OntologyID: 
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 8865
+TotalScore: 5.4661
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.1
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	NNC=1C(=CC=CC1C)C	4.99915850162506	1	1	0.999158501625061	1	1
+
+NAME: 541354
+ID: MJAVQHPPPBDYAN
+IsSpectrumSearch: False
+INCHIKEY: MJAVQHPPPBDYAN-UHFFFAOYSA-N
+SMILES: NC=1C=C(C(N)=C(C1)C)C
+RESOURCES: Database ID=541355
+SubstructureInChIKeys: VNWKTOKETHGBQD;QGZKDVFQNNGYKY;UHOVQNZJYSORNB;YXFVVABEGXRONW;PAYRUJLWNCNPSJ;RNVCVTLRINQCPJ
+SubstructureOntologies: CHEMONTID:0002500;NonID:NH2;CHEMONTID:0002279;CHEMONTID:0001091;CHEMONTID:0000284;CHEMONTID:0003964
+Ontology: 
+OntologyID: 
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 8978
+TotalScore: 5.4661
+TotalHrRulesScore: 0.1667
+TotalBondCleavageScore: 0.1667
+TotalMassAccuracyScore: 0.1665
+TotalFragmentLinkageScore: 0.1667
+TotalBondDissociationEnergyScore: 0.1667
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.1
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 1
+137.106918	1	137.107328334983	136.100051879883	C8H12N2	1	2.99	0.41	True	True	False	0		0	0	NC=1C=C(C(N)=C(C1)C)C	4.99915850162506	1	1	0.999158501625061	1	1
+

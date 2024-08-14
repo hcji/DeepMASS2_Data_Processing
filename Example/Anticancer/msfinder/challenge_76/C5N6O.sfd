@@ -1,0 +1,27 @@
+NAME: 10360
+ID: ASPOIVQEUUCDQT
+IsSpectrumSearch: False
+INCHIKEY: ASPOIVQEUUCDQT-UHFFFAOYSA-N
+SMILES: N#C[Fe-2](C#N)(C#N)(C#N)(C#N)N=O
+RESOURCES: Database ID=10360
+SubstructureInChIKeys: LELOWRISYMNNSU
+SubstructureOntologies: CHEMONTID:0000362
+Ontology: 
+OntologyID: 
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 7118
+TotalScore: 3.514
+TotalHrRulesScore: 0
+TotalBondCleavageScore: 0
+TotalMassAccuracyScore: 0
+TotalFragmentLinkageScore: 0
+TotalBondDissociationEnergyScore: 0
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 0
+

@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C7H5NaO3	[M + H]+	C7H5NaO3	2.207832901293262	2.207832901293262	0.0	4	0.029834232359183425	-6.3033290466134035	6.3033290466134035	-0.0028076510948759955	

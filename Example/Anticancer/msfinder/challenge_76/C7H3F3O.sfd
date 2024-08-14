@@ -1,0 +1,27 @@
+NAME: 79265
+ID: KPJIEPBITZLHPQ
+IsSpectrumSearch: False
+INCHIKEY: KPJIEPBITZLHPQ-UHFFFAOYSA-N
+SMILES: O=CC=1C(F)=CC(F)=CC1F
+RESOURCES: Database ID=79265
+SubstructureInChIKeys: WSFSSNUMVMOOMR;IKHGUXGNUITLKF;UHOVQNZJYSORNB;YXFVVABEGXRONW;HUMNYLRZRPPJDN
+SubstructureOntologies: CHEMONTID:0001831;CHEMONTID:0002230;CHEMONTID:0002279;CHEMONTID:0001091;CHEMONTID:0000321
+Ontology: 
+OntologyID: 
+RETENTIONTIME: -1
+RETENTIONINDEX: -1
+CCS: -1
+TotalBondEnergy: 6627
+TotalScore: 3.7366
+TotalHrRulesScore: 0
+TotalBondCleavageScore: 0
+TotalMassAccuracyScore: 0
+TotalFragmentLinkageScore: 0
+TotalBondDissociationEnergyScore: 0
+DatabaseScore: 0.5
+SubstructureAssignmentScore: 0.1111
+RtSimilarityScore: -1
+RiSimilarityScore: 0
+CcsSimilarityScore: -1
+Num Fragment VS2 (M/Z Intensity MatchedExactMass SaturatedExactMass Formula RearrangedHydrogen PPM MassDiff_mDa IsEvenElectronRule IsHrRule IsSolventAdductFragment AssignedAdductMass AdductString BondDissociationEnergy TreeDepth SMILES TotalScore HrLikelihood BcLikelihood MaLikelihood FlLikelihood BeLikelihood): 0
+

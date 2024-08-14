@@ -1,0 +1,2 @@
+formulaRank	molecularFormula	adduct	precursorFormula	SiriusScore	TreeScore	IsotopeScore	numExplainedPeaks	explainedIntensity	medianMassErrorFragmentPeaks(ppm)	medianAbsoluteMassErrorFragmentPeaks(ppm)	massErrorPrecursor(ppm)	lipidClass
+1	C21H20O8	[M + H]+	C21H20O8	27.791818431264137	27.791818431264137	0.0	12	0.8763907063622015	-2.4873894883242635	4.207031649144232	-0.0011270620175924664	
