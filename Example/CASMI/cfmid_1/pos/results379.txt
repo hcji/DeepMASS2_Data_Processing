@@ -1,0 +1,4 @@
+1 0.80808081 0 c1ccc(-c2ccc(C(c3ccccc3)n3ccnc3)cc2)cc1
+1 0.80808081 1 c1ccc(-c2ccc([C@@H](c3ccccc3)n3ccnc3)cc2)cc1
+1 0.80808081 2 c1ccc(-c2ccc([C@H](c3ccccc3)n3ccnc3)cc2)cc1
+1 0.5380117 3 c1ccc(C(c2ccccc2)(c2ccccc2)n2ccnc2)cc1

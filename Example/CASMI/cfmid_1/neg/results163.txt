@@ -1,0 +1,6 @@
+1 0 0 Nc1nc(=O)n(C2CC(O)C(CO)O2)cc1F
+1 0 1 CC1OC(n2cc(F)c(N)nc2=O)C(O)C1O
+1 0 2 Nc1ccn(C2OC(CO)C(O)C2F)c(=O)n1
+1 0 3 Nc1nc(=O)n([C@H]2C[C@H](O)[C@@H](CO)O2)cc1F
+1 0 4 C[C@H]1O[C@@H](n2cc(F)c(N)nc2=O)[C@H](O)[C@@H]1O
+1 0 5 Nc1ccn(C2OC(CO)C(O)C2F)c(=O)n1

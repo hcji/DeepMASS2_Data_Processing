@@ -1,0 +1,1 @@
+1 0.62699055 0 CCOc1ccc(-c2nc3ccc(-c4nc5ccc(N6CCN(C)CC6)cc5[nH]4)cc3[nH]2)cc1

@@ -1,0 +1,6 @@
+1 0.88627451 0 Clc1ccc(COC(Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1
+1 0.88627451 1 Clc1ccc(CO[C@@H](Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1
+1 0.88627451 2 Clc1ccc(CO[C@H](Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1
+1 1.0111111 3 Clc1ccc([C@H](Cn2ccnc2)OCc2c(Cl)cccc2Cl)c(Cl)c1
+1 1.0111111 4 Clc1ccc(C(Cn2ccnc2)OCc2c(Cl)cccc2Cl)c(Cl)c1
+1 1.0111111 5 Clc1ccc([C@@H](Cn2ccnc2)OCc2c(Cl)cccc2Cl)c(Cl)c1

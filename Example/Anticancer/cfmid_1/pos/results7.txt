@@ -1,0 +1,7 @@
+1 0.24621212 0 CCc1c2c(nc3ccccc13)-c1cc3c(c(=O)n1C2)COC(=O)C3(O)CC
+1 0.11513158 1 [C-]#[N+][C@@]12C(=O)[C@@H]3[C@@H](O[C@@]4(C(=O)N(C)c5cccc1c54)C3(C)C)C(=O)[C@@]2(C)C=C
+1 0.125 2 [C-]#[N+]C(=C\c1ccc(OC)cc1)/C(=C/c1cc(OC)c(OC)c(OC)c1)[N+]#[C-]
+1 0.125 3 [C-]#[N+]C(=Cc1ccc(OC)c(OC)c1)C(=Cc1ccc(OC)c(OC)c1)[N+]#[C-]
+1 0.1875 4 Cc1ccc(Nc2cc(C(=O)O)c(Nc3ccc(C)cc3)cc2C(=O)O)cc1
+1 0.11378205 5 CCOC(=O)c1cccc(NC2c3ccccc3C(=O)N2Cc2ccco2)c1
+1 0.11805556 6 COc1cc(C2Nc3ccccc3C(=O)N2c2ccccc2OC)ccc1O

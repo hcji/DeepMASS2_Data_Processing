@@ -1,0 +1,2 @@
+1 0.38095238 0 COP(=S)(OC)Oc1ccc([N+](=O)[O-])cc1
+1 0.33106061 1 Cc1ncc(CSP(=O)(O)O)c(C=O)c1O

@@ -1,0 +1,4 @@
+1 1.210084 0 Cc1cccc(C)c1N(Cn1cccn1)C(=O)CCl
+1 0.27619048 1 CN1CCN(C(=O)c2cc3cc(Cl)ccc3[nH]2)CC1
+1 0.28571429 2 CC(C)(C)c1ccc(-c2nc(N)[nH]c(=O)c2Cl)cc1
+1 0.19047619 3 CCCc1c(C(=O)Nc2ccc(Cl)cc2)cnn1C

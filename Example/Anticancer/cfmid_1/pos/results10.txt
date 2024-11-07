@@ -1,0 +1,2 @@
+1 0.051033592 0 COc1cc(/C=C/C(=O)[O-])ccc1O.[Na+]
+1 0.02739726 1 COc1cc(/C=C\C(=O)O)ccc1[O-].[Na+]

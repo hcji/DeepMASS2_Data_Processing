@@ -1,0 +1,4 @@
+1 0.048780488 0 Cc1nc2n(c(=O)c1CCN1CCC(c3noc4cc(F)ccc34)CC1)CCCC2
+1 0 1 Nc1ccc(N2CNC(=O)C23CCN(CCCC(=O)c2ccc(F)cc2)CC3)cc1
+1 0 2 CCN(CC)CCN1CCc2[nH]c(C=C3C(=O)Nc4ccc(F)cc43)c(C)c2C1=O
+1 0 3 CCN(CC)CCN1CCc2[nH]c(/C=C3\C(=O)Nc4ccc(F)cc43)c(C)c2C1=O

@@ -1,0 +1,2 @@
+Score,InChI,FragmenterScore_Values,MaximumTreeDepth,MonoisotopicMass,Identifier,MolecularFormula,InChIKey3,SMILES,FormulasOfExplPeaks,InChIKey2,InChIKey1,FragmenterScore,ExplPeaks,InChIKey,NoExplPeaks,NumberPeaksUsed
+0.0,"InChI=1S/C24H26ClFN4O/c25-18-1-6-23-21(15-18)22(16-30(23)20-4-2-19(26)3-5-20)17-7-10-28(11-8-17)13-14-29-12-9-27-24(29)31/h1-6,15-17H,7-14H2,(H,27,31)",NA,2,440.1779174,10628,C24H26ClFN4O,N,O=C1NCCN1CCN1CCC(c2cn(-c3ccc(F)cc3)c3ccc(Cl)cc23)CC1,NA,UHFFFAOYSA,GZKLJWGUPQBVJQ,0.0,NA,GZKLJWGUPQBVJQ-UHFFFAOYSA-N,0,27

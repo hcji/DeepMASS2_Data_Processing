@@ -1,0 +1,4 @@
+1 0.64848485 0 CC(=O)Nc1ccc(S(=O)(=O)Nc2cc(C)on2)cc1
+1 0.31111111 1 Cn1c([N+](=O)[O-])cnc1COc1ccc(S(C)=O)cc1
+1 0.35384615 2 CC(=O)N(c1cc(C)on1)S(=O)(=O)c1ccc(N)cc1
+1 0.27142857 3 NCCc1c[nH]c2c1C(=O)C1=C(NCCS1(=O)=O)C2=O

@@ -1,0 +1,2 @@
+1 0.34628915 0 CC(O)CC(O)Cc1cc2c(Cl)c(O)cc(O)c2c(=O)o1
+1 0.33122807 1 CC(O)C(O)C(Cl)Cc1cc2cc(O)cc(O)c2c(=O)o1

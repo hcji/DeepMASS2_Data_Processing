@@ -1,0 +1,1 @@
+1 0 0 O=C(NC(=O)c1c(F)cccc1F)Nc1ccc(Oc2ccc(C(F)(F)F)cc2Cl)cc1F

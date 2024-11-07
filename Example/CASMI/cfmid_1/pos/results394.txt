@@ -1,0 +1,1 @@
+1 0.31670352 0 CCCCc1nc(Cl)c(CO)n1Cc1ccc(-c2ccccc2-c2nnn[nH]2)cc1

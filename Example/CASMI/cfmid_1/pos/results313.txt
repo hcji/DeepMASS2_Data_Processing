@@ -1,0 +1,1 @@
+1 0.19285714 0 N#Cc1nn(-c2c(Cl)cc(C(F)(F)F)cc2Cl)c(N)c1SC(F)(F)F

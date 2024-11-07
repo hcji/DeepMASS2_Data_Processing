@@ -1,0 +1,2 @@
+1 0.87719298 0 Clc1ccccc1C(c1ccccc1)(c1ccccc1)n1ccnc1
+1 0.76666667 1 Clc1ccccc1C(c1ccccc1)(c1ccccc1)n1cccn1

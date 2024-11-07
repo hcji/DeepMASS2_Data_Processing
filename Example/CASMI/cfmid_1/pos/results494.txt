@@ -1,0 +1,1 @@
+1 1.5151515 0 COc1ccc2c(c1)CCC(c1ccccc1)=C2c1ccc(OCCN2CCCC2)cc1

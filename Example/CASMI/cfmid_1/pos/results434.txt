@@ -1,0 +1,1 @@
+1 0.50446455 0 COc1ccc(Cl)cc1C(=O)NCCc1ccc(S(=O)(=O)NC(=O)NC2CCCCC2)cc1

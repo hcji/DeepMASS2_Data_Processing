@@ -1,0 +1,6 @@
+1 0.44777526 0 COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1
+1 0 1 COc1cc(NC(=O)c2ccc(-c3ccc(Cl)cc3)o2)cc(OC)c1
+1 0.3125 2 COc1ccc2c(C(=O)c3ccc(Cl)cc3)c(C)n(CC(=O)O)c2c1
+1 0 3 Cc1cc(COc2ccc(Oc3ccc(Cl)cc3)cc2)n(O)c(=O)c1
+1 0 4 COc1cc(NC(=O)c2cc3ccccc3cc2O)c(OC)cc1Cl
+1 0 5 COc1cc(OC)c(NC(=O)c2cc3ccccc3cc2O)cc1Cl

@@ -1,0 +1,4 @@
+1 0 0 Oc1ccccc1I
+1 0 1 Oc1ccc(I)cc1
+1 0 2 Oc1cccc(I)c1
+1 0 3 O=Ic1ccccc1

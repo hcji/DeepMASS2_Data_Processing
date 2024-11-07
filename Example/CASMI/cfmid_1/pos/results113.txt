@@ -1,0 +1,4 @@
+1 0.047619048 0 COc1ccc(C(O)C(C)Oc2ccc(C3OC(c4ccc(OC(C)C(O)c5ccc(OC)c(OC)c5)c(OC)c4)C(C)C3C)cc2O)cc1OC
+1 0.095238095 1 COc1cc(C(O)C(C)Oc2ccc(C3OC(c4ccc(OC(C)C(O)c5ccc(OC)c(OC)c5)c(OC)c4)C(C)C3C)cc2OC)ccc1O
+1 0.14285714 2 COc1ccc(C(O)C(C)Oc2ccc(C3OC(c4ccc(OC(C)C(O)c5ccc(OC)c(OC)c5)c(OC)c4)C(C)C3C)cc2OC)cc1O
+1 0.095238095 3 COc1cc([C@@H](O)[C@@H](C)Oc2ccc([C@H]3O[C@H](c4ccc(O[C@H](C)[C@H](O)c5ccc(OC)c(OC)c5)c(OC)c4)[C@H](C)[C@H]3C)cc2OC)ccc1O

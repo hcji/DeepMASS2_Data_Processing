@@ -1,0 +1,3 @@
+1 0.9060559 0 COC(=O)[C@H](c1ccccc1Cl)N1CCc2sccc2C1
+1 0.9060559 1 COC(=O)C(c1ccccc1Cl)N1CCc2sccc2C1
+1 0.4029453 2 O=C(NC1CC1)c1ccc(CSCc2ccccc2Cl)o1

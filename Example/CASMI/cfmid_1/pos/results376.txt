@@ -1,0 +1,6 @@
+1 0.6875 0 O=S(c1ccccc1)c1ccccc1
+1 0.4836039 1 O=C(S)Cc1cccc2ccccc12
+1 0.35 2 CC(=O)Sc1ccc2ccccc2c1
+1 0.68398539 3 CC=CC#CC#Cc1ccc(CO)s1
+1 0.39243197 4 C(#Cc1cccs1)C=CC1CC=CO1
+1 0.27677479 5 CSC=CC#CC(=O)c1ccccc1

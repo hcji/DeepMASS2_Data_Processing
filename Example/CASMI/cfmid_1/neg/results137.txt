@@ -1,0 +1,2 @@
+1 0 0 CCC(C)OC1OC(COC2OCC(O)(COC(=O)C=Cc3ccc(O)c(O)c3)C2O)C(O)C(O)C1O
+1 0.10331633 1 C/C(=C\Cc1c(O[C@@H]2O[C@H](CO[C@@H]3O[C@@H](C)[C@H](O)[C@@H](O)[C@H]3O)[C@@H](O)[C@H](O)[C@H]2O)ccc(O)c1C)C(=O)O

@@ -1,0 +1,4 @@
+1 0 0 CN(N=O)C(=O)N[C@@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@@H]1O
+1 0 1 CN(N=O)C(=O)NC1C(O)OC(CO)C(O)C1O
+1 0 2 CN(N=O)C(=O)NC(C=O)C(O)C(O)C(O)CO
+1 0 3 CN(N=O)C(=O)N[C@H]1C(O)O[C@H](CO)[C@@H](O)[C@@H]1O

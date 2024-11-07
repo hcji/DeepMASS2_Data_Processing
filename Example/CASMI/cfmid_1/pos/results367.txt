@@ -1,0 +1,3 @@
+1 0.92620558 0 CN1CCCC(n2nc(Cc3ccc(Cl)cc3)c3ccccc3c2=O)CC1
+1 0.92620558 1 CN1CCC[C@@H](n2nc(Cc3ccc(Cl)cc3)c3ccccc3c2=O)CC1
+1 0.92620558 2 CN1CCC[C@H](n2nc(Cc3ccc(Cl)cc3)c3ccccc3c2=O)CC1

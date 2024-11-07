@@ -1,0 +1,6 @@
+1 0.61428571 0 Cn1c(N)nc2ncc(-c3ccccc3)cc21
+1 0.26666667 1 C(=NNc1ccccc1)N=Nc1ccccc1
+1 0.63859649 2 CCc1nc(N)c(C#N)cc1-c1ccncc1
+1 1.2 3 N=C(N)N1c2ccccc2Cc2cccnc21
+1 0.59047619 4 Nc1ccccc1Nc1nc2ccccc2[nH]1
+1 0.69333333 5 Nc1ccc(-c2nc3cc(N)ccc3[nH]2)cc1

@@ -1,0 +1,4 @@
+1 0.10526316 0 CSC1=NCC2(S1)C(O)=Nc1ccccc12
+1 0.30576441 1 CS(=O)C1=NCc2c([nH]c3ccccc23)S1
+1 0 2 CC(C)c1nnc(-c2cc3sccc3s2)o1
+1 0.29141034 3 OCSC1=NCc2c([nH]c3ccccc23)S1

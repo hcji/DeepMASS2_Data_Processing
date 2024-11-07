@@ -1,0 +1,1 @@
+1 0.14805058 0 COCCCNc1nc2c(c(=O)n(C)c(=O)n2C)n1C

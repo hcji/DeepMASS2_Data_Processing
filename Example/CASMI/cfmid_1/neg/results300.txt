@@ -1,0 +1,2 @@
+1 0.14814815 0 CC(C)C(=O)Nc1ccc([N+](=O)[O-])c(C(F)(F)F)c1
+1 0.2010902 1 O=C(Nc1ccccc1)C(C[N+](=O)[O-])CC(F)(F)F

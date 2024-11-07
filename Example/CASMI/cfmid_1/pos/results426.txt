@@ -1,0 +1,2 @@
+1 0.080942046 0 CO/N=C(/C1=NOCCO1)c1ccccc1Oc1ncnc(Oc2ccccc2Cl)c1F
+1 0.080942046 1 CON=C(C1=NOCCO1)c1ccccc1Oc1ncnc(Oc2ccccc2Cl)c1F

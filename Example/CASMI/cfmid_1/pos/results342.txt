@@ -1,0 +1,4 @@
+1 0.071428571 0 CCNc1nc(NC(C)C)nc(OC)n1
+1 0.31692372 1 CCNc1nc(O)nc(NC(C)(C)C)n1
+1 0 2 CCN(CC(C)O)c1ccc(NN)nn1
+1 0.088888889 3 CC(C)N=c1nc(O)[nH]c(=NC(C)C)[nH]1

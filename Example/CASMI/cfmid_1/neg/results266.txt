@@ -1,0 +1,3 @@
+1 0.64935065 0 COc1ncnc(NS(=O)(=O)c2ccc(N)cc2)c1OC
+1 0.51515152 1 COc1cc(NS(=O)(=O)c2ccc(N)cc2)nc(OC)n1
+1 0.51515152 2 COc1cc(OC)nc(NS(=O)(=O)c2ccc(N)cc2)n1

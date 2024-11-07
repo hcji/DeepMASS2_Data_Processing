@@ -1,0 +1,2 @@
+1 0 0 CCOP(=O)(OCC)OC(=CCl)c1ccc(Cl)cc1Cl
+1 0 1 CCOP(=O)(OCC)O/C(=C/Cl)c1ccc(Cl)cc1Cl

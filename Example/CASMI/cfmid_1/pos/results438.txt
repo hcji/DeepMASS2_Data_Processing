@@ -1,0 +1,4 @@
+1 0.59912959 0 CO/C=C(/C(=O)OC)c1ccccc1COc1cccc(C(F)(F)F)n1
+1 0.042553191 1 CC(=O)Oc1ccc(NCCc2ccc(C(F)(F)F)cc2)cc1C(=O)O
+1 0.59912959 2 COC=C(C(=O)OC)c1ccccc1COc1cccc(C(F)(F)F)n1
+1 0 3 CCOC(=O)c1c(C)nc(C)c(C(=O)O)c1-c1ccccc1C(F)(F)F

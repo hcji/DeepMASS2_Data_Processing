@@ -1,0 +1,7 @@
+1 0 0 O=[N+]([O-])c1cc[n+]([O-])c2ccccc12
+1 0 1 O=[N+]([O-])c1ccc(O)c2ncccc12
+1 0 2 O=C(O)c1ncc2cccnc2c1O
+1 0 3 O=C(O)c1c[nH]c2ncccc2c1=O
+1 0 4 O=c1c([N+](=O)[O-])c[nH]c2ccccc12
+1 0 5 O=[N+]([O-])c1ccc(-c2cocn2)cc1
+1 0 6 O=C(O)c1cnc2cccnc2c1O

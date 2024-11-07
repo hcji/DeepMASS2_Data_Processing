@@ -1,0 +1,1 @@
+1 0.054054054 0 O=c1[nH]c2ccccc2n1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1

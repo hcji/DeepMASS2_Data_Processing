@@ -1,0 +1,2 @@
+1 0.91208791 0 C[C@@]12C[C@]1(C)C(=O)N(c1cc(Cl)cc(Cl)c1)C2=O
+1 0.91208791 1 CC12CC1(C)C(=O)N(c1cc(Cl)cc(Cl)c1)C2=O

@@ -1,0 +1,7 @@
+1 0 0 CN(C)Cc1cccc(N=C(c2ccccc2)c2c(O)[nH]c3cc(C(=O)N(C)C)ccc23)c1
+1 0 1 CNC(=O)Cn1c(=O)n(C2CCN(C3Cc4cccc5cccc3c45)CC2)c2ccccc21
+1 0.097532315 2 C=CC(C)(C)c1[nH]c2ccccc2c1C[C@@H]1NC(=O)[C@@H](Cc2c[nH]c3ccccc23)NC1=O
+1 0.10799439 3 C=CC(C)(C)[C@@]12C[C@H]3C(=O)N[C@@H](Cc4c[nH]c5ccccc45)C(=O)N3[C@@H]1Nc1ccccc12
+1 0.097532315 4 C=CC(C)(C)c1[nH]c2ccccc2c1CC1NC(=O)C(Cc2c[nH]c3ccccc23)NC1=O
+1 0.055555556 5 C=CC(C)(C)n1cc(CC2NC(=O)C(Cc3c[nH]c4ccccc34)NC2=O)c2ccccc21
+1 0 6 CN(C)Cc1cccc(N/C(=C2\C(=O)Nc3cc(C(=O)N(C)C)ccc32)c2ccccc2)c1

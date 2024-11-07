@@ -1,0 +1,2 @@
+1 0 0 CC(=O)NCc1c(I)c(NC(C)=O)c(I)c(C(=O)O)c1I
+1 0 1 CC(=O)Nc1c(I)c(C(=O)O)c(I)c(N(C)C(C)=O)c1I

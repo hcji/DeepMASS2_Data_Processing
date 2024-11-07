@@ -1,0 +1,2 @@
+1 0.12371134 0 Cn1c(CNc2ccc(C(=N)N)cc2)nc2cc(C(=O)N(CCC(=O)O)c3ccccn3)ccc21
+1 0 1 N#CCc1cnc(-c2ccc3c(c2)OCO3)n1-c1ccnc(NC2CCCN(C(=O)C3CC3)C2)n1

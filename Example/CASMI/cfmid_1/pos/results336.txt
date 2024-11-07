@@ -1,0 +1,7 @@
+1 0.25 0 O=CNc1ccc([N+](=O)[O-])cc1
+1 0.18181818 1 NC(=O)c1ccccc1[N+](=O)[O-]
+1 0.16 2 O=[N+]([O-])c1cccc(C=NO)c1
+1 0.62333333 3 NC(=O)c1ccc(O)c(N=O)c1
+1 0.55462963 4 N=C(O)c1ncccc1C(=O)O
+1 0.47356322 5 N=C(O)c1cccnc1C(=O)O
+1 0.36862745 6 O=NC(O)=Nc1ccc(O)cc1

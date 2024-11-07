@@ -1,0 +1,2 @@
+1 0.15654521 0 COC(=O)c1csc(C(=O)c2c[nH]c3ccccc23)n1
+1 0 1 O=[N+]([O-])c1ccc(CSc2nc3ccccc3o2)cc1

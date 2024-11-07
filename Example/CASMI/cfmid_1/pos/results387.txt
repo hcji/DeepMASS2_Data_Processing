@@ -1,0 +1,2 @@
+1 0.23439345 0 CCOc1ccccc1OS(=O)(=O)NC(=O)Nc1nc(OC)cc(OC)n1
+1 0.61588609 1 CCCOc1nn(C(O)=NS(=O)(=O)c2ccccc2C(=O)OC)c(=O)n1C

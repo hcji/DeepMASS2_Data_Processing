@@ -1,4 +1,6 @@
 *.mzml
+/Models/
+/Saves/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

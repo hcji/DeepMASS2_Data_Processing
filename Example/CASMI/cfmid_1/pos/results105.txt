@@ -1,0 +1,1 @@
+1 0.37211982 0 O=C(c1ccc(Nc2nccc(-c3cc4ccccc4s3)n2)cc1)N1CCC(N2CCCC2)CC1

@@ -12,6 +12,7 @@ import matplotlib.pyplot as plt
 
 from tqdm import tqdm
 from rdkit import Chem
+from rdkit.Chem import inchi
 from matchms.importing import load_from_mgf
 
 import gensim
@@ -49,6 +50,14 @@ deepmass_path_1 = "Example/CASMI/deepmass_2"
 deepmass_files_1 = [name for name in os.listdir(deepmass_path_1)]
 deepmass_index_1 = [int(i.split('_')[-1].split('.')[-2]) for i in deepmass_files_1]
 
+metfrag_path = "Example/CASMI/metfrag_1"
+metfrag_files = [name for name in os.listdir(metfrag_path)]
+metfrag_index = [int(i.split('_')[-1].split('.')[-2]) for i in metfrag_files]
+
+cfmid_path = "Example/CASMI/cfmid_1"
+cfmid_files = [name for name in os.listdir(cfmid_path + '/pos')]
+cfmid_index = [int(i.split('.')[0][7:]) for i in cfmid_files]
+
 
 ranking_result = []
 for s in tqdm(spectrums):
@@ -75,6 +84,42 @@ for s in tqdm(spectrums):
     else:
         sirius_n = 0
         sirius_rank = float('inf')
+        
+        
+    # rank of metfrag
+    try:
+        metfrag_file = "/{}".format(metfrag_files[metfrag_index.index(index)])
+        metfrag_file = metfrag_path + metfrag_file
+        metfrag_result = pd.read_csv(metfrag_file)
+        metfrag_key = np.array([k for k in metfrag_result['InChIKey1']])
+        metfrag_rank = np.where(metfrag_key == true_key)[0]
+        if len(metfrag_rank) == 0:
+            metfrag_rank = float('inf')
+        else:
+            metfrag_rank = metfrag_rank[0] + 1
+    except:
+        metfrag_rank = float('inf')
+        
+    
+    # rank of cfmid
+    if s.get('ionmode') == 'negative':
+        cfmid_file = "/{}/{}".format('neg', cfmid_files[cfmid_index.index(index)])
+    else:
+        cfmid_file = "/{}/{}".format('pos', cfmid_files[cfmid_index.index(index)])
+    cfmid_file = cfmid_path + cfmid_file
+    try:
+        cfmid_result = pd.read_csv(cfmid_file, sep=' ', header=None)
+        cfmid_result.columns = ['core', 'score', 'id', 'smiles']
+        cfmid_result = cfmid_result.sort_values(by='score', ascending=False, ignore_index=True)
+        cfmid_key = np.array([inchi.MolToInchiKey(Chem.MolFromSmiles(s))[:14] for s in cfmid_result['smiles']])
+        cfmid_rank = np.where(cfmid_key == true_key)[0]
+        if len(cfmid_rank) == 0:
+            cfmid_rank = float('inf')
+        else:
+            cfmid_rank = cfmid_rank[0] + 1
+    except:
+        cfmid_rank = float('inf')
+        
     
     # rank of deepmass open
     deepmass_file_1 = "/{}".format(deepmass_files_1[deepmass_index_1.index(index)])
@@ -114,10 +159,14 @@ for s in tqdm(spectrums):
     else:
         msfinder_rank = np.nan
 
-    ranking_result.append([name, true_key, sirius_rank, msfinder_rank, deepmass_rank, deepmass_rank_1])
+    ranking_result.append([name, true_key, sirius_rank, msfinder_rank, deepmass_rank, deepmass_rank_1, metfrag_rank, cfmid_rank])
 
 ranking_result = pd.DataFrame(ranking_result, columns = ['Challenge', 'True Inchikey2D', 'SIRIUS Ranking', 'MSFinder Ranking',
-                                                         'DeepMASS Ranking', 'DeepMASS Ranking (Public)'])
+                                                         'DeepMASS Ranking', 'DeepMASS Ranking (Public)', 'MetFrag Ranking', 'CFM-ID Ranking'])
+
+smiles = [s.get('smiles') for s in spectrums]
+ranking_result['SMILES'] = smiles
+ranking_result.to_csv('Example/CASMI/ranking_result.csv')
 
 
 # searching with MatchMS
@@ -174,7 +223,7 @@ for i,s in enumerate(tqdm(spectrums)):
         scores_spec2vec = np.array([s[0] for s in scores_spec2vec.scores.to_array()])
         if max(scores_spec2vec) > 0:
             ranked_inchikey_spec2vec = all_inchikey[np.argsort(-scores_spec2vec)]
-            rank_spec2vec = np.where(ranked_inchikey_spec2vec == query_inchikey)[0][0]
+            rank_spec2vec = np.where(ranked_inchikey_spec2vec == query_inchikey)[0][0] + 1
         else:
             rank_spec2vec = float('inf')
             
@@ -188,7 +237,7 @@ for i,s in enumerate(tqdm(spectrums)):
         scores_cosine_greedy = np.array([s[0].tolist()[0] for s in scores_cosine_greedy.scores.to_array()])      
         if max(scores_cosine_greedy) > 0:
             ranked_inchikey_cosine_greedy = all_inchikey[np.argsort(-scores_cosine_greedy)]
-            rank_cosine_greedy = np.where(ranked_inchikey_cosine_greedy == query_inchikey)[0][0]
+            rank_cosine_greedy = np.where(ranked_inchikey_cosine_greedy == query_inchikey)[0][0] + 1
         else:
             rank_cosine_greedy = float('inf')
     except:
@@ -208,20 +257,23 @@ for i in range(1, 11):
     sirius_ratio = len(np.where(ranking_result['SIRIUS Ranking'] <= i )[0]) / len(ranking_result)
     matchms_ratio = len(np.where(ranking_result['Cosine Ranking'] <= i )[0]) / len(ranking_result)
     spec2vec_ratio = len(np.where(ranking_result['Spec2Vec Ranking'] <= i )[0]) / len(ranking_result)
+    metfrag_ratio = len(np.where(ranking_result['MetFrag Ranking'] <= i )[0]) / len(ranking_result)
+    cfmid_ratio = len(np.where(ranking_result['CFM-ID Ranking'] <= i )[0]) / len(ranking_result)
     
-    ratios.append([deepmass_ratio, deepmass_ratio_1, sirius_ratio, msfinder_ratio, matchms_ratio, spec2vec_ratio])
-ratios = pd.DataFrame(ratios, columns = ['DeepMASS', 'DeepMASS (Public)', 'SIRIUS', 'MSFinder', 'Cosine', 'Spec2Vec'])
+    ratios.append([deepmass_ratio, deepmass_ratio_1, sirius_ratio, msfinder_ratio, matchms_ratio, spec2vec_ratio, metfrag_ratio, cfmid_ratio])
+ratios = pd.DataFrame(ratios, columns = ['DeepMASS', 'DeepMASS (Public)', 'SIRIUS', 'MSFinder', 'Cosine', 'Spec2Vec', 'MetFrag', 'CFM-ID'])
 
 x = np.arange(1,11)
 plt.figure(dpi = 300, figsize=(4.8,4.2))
-plt.plot(x, ratios['DeepMASS'], label = 'DeepMASS', marker='D', color = '#FA7F6F', markersize=5)
-plt.plot(x, ratios['DeepMASS (Public)'], label = 'DeepMASS (Public)', marker='D', color = '#FA7F6F', linestyle = '--', markersize=5)
-plt.plot(x, ratios['SIRIUS'], label = 'SIRIUS', marker='D', color = '#FFBE7A', markersize=5)
-plt.plot(x, ratios['MSFinder'], label = 'MSFinder', marker='D', color = '#8ECFC9', markersize=5)
-# plt.plot(x, ratios['Cosine'], label = 'Cosine', marker='D', color = '#82B0D2', markersize=5)
-plt.plot(x, ratios['Spec2Vec'], label = 'Spec2Vec', marker='D', color = '#BEA6C3', markersize=5)
+plt.plot(x, ratios['DeepMASS'], label = 'DeepMASS', marker='D', color = '#FA7F6F', markersize=3)
+plt.plot(x, ratios['DeepMASS (Public)'], label = 'DeepMASS (Public)', marker='D', color = '#FA7F6F', linestyle = '--', markersize=3)
+plt.plot(x, ratios['SIRIUS'], label = 'SIRIUS', marker='D', color = '#FFBE7A', markersize=3)
+plt.plot(x, ratios['MSFinder'], label = 'MSFinder', marker='D', color = '#8ECFC9', markersize=3)
+plt.plot(x, ratios['MetFrag'], label = 'MetFrag', marker='D', color = '#82B0D2', markersize=3)
+plt.plot(x, ratios['CFM-ID'], label = 'CFM-ID', marker='D', color = '#925E9F', markersize=3)
+plt.plot(x, ratios['Spec2Vec'], label = 'Spec2Vec', marker='D', color = '#BEA6C3', markersize=3)
 plt.xlim(0.5, 10.5)
-plt.ylim(0.0, 0.85)
+plt.ylim(-0.05, 0.85)
 plt.xticks(np.arange(1, 11, 1))
 plt.xlabel('topK', fontsize = 14)
 plt.ylabel('ratio', fontsize = 14)
@@ -239,18 +291,21 @@ for i in range(1, 11):
     sirius_ratio = len(np.where(ranking_result_1['SIRIUS Ranking'] <= i )[0]) / len(ranking_result_1)
     matchms_ratio = len(np.where(ranking_result_1['Cosine Ranking'] <= i )[0]) / len(ranking_result_1)
     spec2vec_ratio = len(np.where(ranking_result_1['Spec2Vec Ranking'] <= i )[0]) / len(ranking_result_1)
+    metfrag_ratio = len(np.where(ranking_result_1['MetFrag Ranking'] <= i )[0]) / len(ranking_result_1)
+    cfmid_ratio = len(np.where(ranking_result_1['CFM-ID Ranking'] <= i )[0]) / len(ranking_result_1)
     
-    ratios.append([deepmass_ratio, deepmass_ratio_1, sirius_ratio, msfinder_ratio, matchms_ratio, spec2vec_ratio])
-ratios = pd.DataFrame(ratios, columns = ['DeepMASS', 'DeepMASS (Public)', 'SIRIUS', 'MSFinder', 'Cosine', 'Spec2Vec'])
+    ratios.append([deepmass_ratio, deepmass_ratio_1, sirius_ratio, msfinder_ratio, matchms_ratio, spec2vec_ratio, metfrag_ratio, cfmid_ratio])
+ratios = pd.DataFrame(ratios, columns = ['DeepMASS', 'DeepMASS (Public)', 'SIRIUS', 'MSFinder', 'Cosine', 'Spec2Vec', 'MetFrag', 'CFM-ID'])
 
 x = np.arange(1,11)
 plt.figure(dpi = 300, figsize=(4.8,4.2))
-plt.plot(x, ratios['DeepMASS'], label = 'DeepMASS', marker='D', color = '#FA7F6F', markersize=5)
-plt.plot(x, ratios['DeepMASS (Public)'], label = 'DeepMASS (Public)', marker='D', color = '#FA7F6F', linestyle = '--', markersize=5)
-plt.plot(x, ratios['SIRIUS'], label = 'SIRIUS', marker='D', color = '#FFBE7A', markersize=5)
-plt.plot(x, ratios['MSFinder'], label = 'MSFinder', marker='D', color = '#8ECFC9', markersize=5)
-# plt.plot(x, ratios['Cosine'], label = 'Cosine', marker='D', color = '#82B0D2', markersize=5)
-plt.plot(x, ratios['Spec2Vec'], label = 'Spec2Vec', marker='D', color = '#BEA6C3', markersize=5)
+plt.plot(x, ratios['DeepMASS'], label = 'DeepMASS', marker='D', color = '#FA7F6F', markersize=3)
+plt.plot(x, ratios['DeepMASS (Public)'], label = 'DeepMASS (Public)', marker='D', color = '#FA7F6F', linestyle = '--', markersize=3)
+plt.plot(x, ratios['SIRIUS'], label = 'SIRIUS', marker='D', color = '#FFBE7A', markersize=3)
+plt.plot(x, ratios['MSFinder'], label = 'MSFinder', marker='D', color = '#8ECFC9', markersize=3)
+plt.plot(x, ratios['MetFrag'], label = 'MetFrag', marker='D', color = '#82B0D2', markersize=3)
+plt.plot(x, ratios['CFM-ID'], label = 'CFM-ID', marker='D', color = '#925E9F', markersize=3)
+plt.plot(x, ratios['Spec2Vec'], label = 'Spec2Vec', marker='D', color = '#BEA6C3', markersize=3)
 plt.xlim(0.5, 10.5)
 plt.ylim(0.0, 1.05)
 plt.xticks(np.arange(1, 11, 2))
@@ -268,16 +323,20 @@ for i in range(1, 11):
     msfinder_ratio = len(np.where(ranking_result_2['MSFinder Ranking'] <= i )[0]) / (len(ranking_result_2) - 12)
     sirius_ratio = len(np.where(ranking_result_2['SIRIUS Ranking'] <= i )[0]) / len(ranking_result_2)
     deepmass_ratio_1 = len(np.where(ranking_result_2['DeepMASS Ranking (Public)'] <= i )[0]) / len(ranking_result_2)
+    metfrag_ratio = len(np.where(ranking_result_2['MetFrag Ranking'] <= i )[0]) / len(ranking_result_2)
+    cfmid_ratio = len(np.where(ranking_result_2['CFM-ID Ranking'] <= i )[0]) / len(ranking_result_2)
     
-    ratios.append([deepmass_ratio, sirius_ratio, msfinder_ratio, deepmass_ratio_1])
-ratios = pd.DataFrame(ratios, columns = ['DeepMASS', 'SIRIUS', 'MSFinder', 'DeepMASS (Public)'])
+    ratios.append([deepmass_ratio, sirius_ratio, msfinder_ratio, deepmass_ratio_1, metfrag_ratio, cfmid_ratio])
+ratios = pd.DataFrame(ratios, columns = ['DeepMASS', 'SIRIUS', 'MSFinder', 'DeepMASS (Public)', 'MetFrag', 'CFM-ID'])
 
 x = np.arange(1,11)
 plt.figure(dpi = 300, figsize=(4.8,4.2))
-plt.plot(x, ratios['DeepMASS'], label = 'DeepMASS', marker='D', color = '#FA7F6F')
-plt.plot(x, ratios['DeepMASS (Public)'], label = 'DeepMASS (Public)', marker='D', color = '#FA7F6F', linestyle = '--')
-plt.plot(x, ratios['SIRIUS'], label = 'SIRIUS', marker='D', color = '#FFBE7A')
-plt.plot(x, ratios['MSFinder'], label = 'MSFinder', marker='D', color = '#8ECFC9')
+plt.plot(x, ratios['DeepMASS'], label = 'DeepMASS', marker='D', color = '#FA7F6F', markersize=3)
+plt.plot(x, ratios['DeepMASS (Public)'], label = 'DeepMASS (Public)', marker='D', color = '#FA7F6F', linestyle = '--', markersize=3)
+plt.plot(x, ratios['SIRIUS'], label = 'SIRIUS', marker='D', color = '#FFBE7A', markersize=3)
+plt.plot(x, ratios['MetFrag'], label = 'MetFrag', marker='D', color = '#82B0D2', markersize=3)
+plt.plot(x, ratios['CFM-ID'], label = 'CFM-ID', marker='D', color = '#925E9F', markersize=3)
+plt.plot(x, ratios['MSFinder'], label = 'MSFinder', marker='D', color = '#8ECFC9', markersize=3)
 plt.xlim(0.5, 10.5)
 plt.ylim(0.0, 0.7)
 plt.xticks(np.arange(1, 11, 1))

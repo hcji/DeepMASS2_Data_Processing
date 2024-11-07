@@ -1,0 +1,5 @@
+1 0.46157262 0 Cc1ccccc1OP(=O)(Oc1ccccc1C)Oc1ccccc1C
+1 0.5831202 1 Cc1cccc(OP(=O)(Oc2cccc(C)c2)Oc2cccc(C)c2)c1
+1 0.511679 2 Cc1ccc(OP(=O)(Oc2ccc(C)cc2)Oc2ccc(C)cc2)cc1
+1 0.4632107 3 Cc1ccc(OP(=O)(Oc2cccc(C)c2)Oc2cccc(C)c2)cc1
+1 0.28916494 4 CC(C)c1ccccc1OP(=O)(Oc1ccccc1)Oc1ccccc1

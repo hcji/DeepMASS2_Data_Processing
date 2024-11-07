@@ -1,0 +1,2 @@
+1 0.45819398 0 CC/C(=C(\c1ccccc1)c1ccc(OCCN(C)C)cc1)c1ccccc1
+1 0.45819398 1 CCC(=C(c1ccccc1)c1ccc(OCCN(C)C)cc1)c1ccccc1

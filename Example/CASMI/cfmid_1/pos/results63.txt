@@ -1,0 +1,2 @@
+1 0.12693434 0 COc1cc2c(cc1OC)CN(CCc1ccc(NC(=O)c3cccc4c(=O)c5cccc(OC)c5[nH]c34)cc1)CC2
+1 0.24837742 1 O=C(CNC(=O)C(Cc1ccccc1)NC(=O)c1ccccc1)OCC(Cc1ccccc1)NC(=O)c1ccccc1

@@ -1,0 +1,2 @@
+1 0 0 O=c1oc2ccccc2c(O)c1C1CC(c2ccc(-c3ccc(Br)cc3)cc2)Cc2ccccc21
+1 0 1 O=c1c(C2CC(c3ccc(-c4ccc(Br)cc4)cc3)Cc3ccccc32)c(O)oc2ccccc12

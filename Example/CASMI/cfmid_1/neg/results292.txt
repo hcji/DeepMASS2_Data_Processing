@@ -1,0 +1,5 @@
+1 1.7142857 0 O=C1c2ccccc2C(=O)c2c(O)cccc21
+1 1.7142857 1 O=C1c2ccccc2C(=O)c2cc(O)ccc21
+1 1.7142857 2 O=C1C=C(O)C(=O)c2c1ccc1ccccc21
+1 0.85714286 3 O=C(O)c1ccc2c(c1)C(=O)c1ccccc1-2
+1 0.85714286 4 O=C(O)c1cccc2c1C(=O)c1ccccc1-2

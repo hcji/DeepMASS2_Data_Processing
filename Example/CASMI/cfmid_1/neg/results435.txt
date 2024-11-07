@@ -1,0 +1,1 @@
+1 0.18721773 0 CCN(CC)c1nc(C)cc(OP(=S)(OC)OC)n1

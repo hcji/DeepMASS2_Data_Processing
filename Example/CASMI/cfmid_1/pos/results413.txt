@@ -1,0 +1,1 @@
+1 0.71577061 0 CC(C)(C)c1ccc(C(=O)CCCN2CCC(OC(c3ccccc3)c3ccccc3)CC2)cc1

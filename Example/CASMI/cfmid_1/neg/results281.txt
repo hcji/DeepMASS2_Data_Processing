@@ -1,0 +1,2 @@
+1 0.5 0 CCOc1ccc2nc(S)sc2c1
+1 0.25 1 OCCSc1nc2ccccc2s1

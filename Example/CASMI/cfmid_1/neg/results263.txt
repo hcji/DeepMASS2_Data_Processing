@@ -1,0 +1,2 @@
+1 1.1520147 0 O=C(O)CCC(=O)c1ccc(F)cc1
+1 1.2222222 1 COc1ccc(/C=C/C(=O)O)cc1F

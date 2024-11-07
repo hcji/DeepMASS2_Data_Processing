@@ -1,0 +1,2 @@
+1 0.61111111 0 CC(C)(c1cc(Br)c(O)c(Br)c1)c1cc(Br)c(O)c(Br)c1
+1 0 1 CC(C)(c1ccc(O)cc1)c1c(Br)c(Br)c(O)c(Br)c1Br

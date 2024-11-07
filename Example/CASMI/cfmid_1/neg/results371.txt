@@ -1,0 +1,2 @@
+1 0 0 NS(=O)(=O)c1cc(C(=O)O)c(NCc2ccco2)cc1Cl
+1 0.090909091 1 NS(=O)(=O)c1cc(C(=O)O)c(Cl)cc1NCc1ccco1

@@ -1,0 +1,1 @@
+1 0 0 CCCCCc1ccc(C=CC(=O)Nc2cc(Cl)ccc2C(=O)O)cc1

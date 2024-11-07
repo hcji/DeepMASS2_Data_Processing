@@ -1,0 +1,2 @@
+Score,InChI,FragmenterScore_Values,MaximumTreeDepth,MonoisotopicMass,Identifier,MolecularFormula,InChIKey3,SMILES,FormulasOfExplPeaks,InChIKey2,InChIKey1,FragmenterScore,ExplPeaks,InChIKey,NoExplPeaks,NumberPeaksUsed
+0.0,"InChI=1S/C12H16Cl2O4/c1-18-10-4-7(2-8(15)5-10)3-9(16)6-11(17)12(13)14/h2,4-5,9,11-12,15-17H,3,6H2,1H3",NA,2,294.0425644,458241,C12H16Cl2O4,N,COc1cc(O)cc(CC(O)CC(O)C(Cl)Cl)c1,NA,UHFFFAOYSA,MMMZDSQYAMMVEG,0.0,NA,MMMZDSQYAMMVEG-UHFFFAOYSA-N,0,6

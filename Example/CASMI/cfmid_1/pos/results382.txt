@@ -1,0 +1,1 @@
+1 0.58859673 0 CN(C)C(=O)C(CCN1CCC(O)(c2ccc(Cl)cc2)CC1)(c1ccccc1)c1ccccc1

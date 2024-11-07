@@ -1,0 +1,1 @@
+1 0.12307837 0 COc1ccccc1Oc1c(NS(=O)(=O)c2ccc(C(C)(C)C)cc2)nc(-c2ncccn2)nc1OCCO

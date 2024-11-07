@@ -1,0 +1,2 @@
+1 0 0 CC=CC=CC(=O)N1Cc2cc(OCCc3nc(C=CC4CCCC4)oc3C)ccc2CC1C(=O)O
+1 0 1 CC(=O)[C@H]1[C@@H]2C=C[C@@H]3/C=C/C=C/C(=O)NCCC[C@@H]4NC(=O)C(=C(O)/C=C/C=C/[C@@H]3[C@H]2C[C@H]1C)C4=O

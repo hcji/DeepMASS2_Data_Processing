@@ -1,0 +1,4 @@
+1 0.2962963 0 N[C@@H](Cc1cc(I)c(Oc2cc(I)c(O)c(I)c2)c(I)c1)C(=O)O
+1 0.2962963 1 N[C@H](Cc1cc(I)c(Oc2cc(I)c(O)c(I)c2)c(I)c1)C(=O)O
+1 0.2962963 2 NC(Cc1cc(I)c(Oc2cc(I)c(O)c(I)c2)c(I)c1)C(=O)O
+1 0.058823529 3 O=C(O)C(I)(C(I)c1ccc(Oc2ccc(O)cc2)cc1)N(I)I

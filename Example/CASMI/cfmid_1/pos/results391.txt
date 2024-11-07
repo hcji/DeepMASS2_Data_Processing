@@ -1,0 +1,6 @@
+1 0.35780886 0 CN1C(=O)CC(=O)N(c2ccccc2)c2cc(Cl)ccc21
+1 0.77183601 1 CN1C(=O)C(O)N=C(c2ccccc2)c2cc(Cl)ccc21
+1 0.579479 2 Cc1cc(Cl)ccc1Cn1nc(C(=O)O)c2ccccc21
+1 0.26223776 3 Cc1cccnc1N1C(=O)CC(c2ccc(Cl)cc2)C1=O
+1 0.31138976 4 COc1ccccc1-c1nc(Cc2ccc(Cl)cc2)no1
+1 0.33640755 5 O=C(O)c1cc(N/N=C/C=C/c2ccccc2)ccc1Cl

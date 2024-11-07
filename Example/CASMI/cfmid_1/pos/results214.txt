@@ -1,0 +1,2 @@
+1 0 0 O=c1oc2ccccc2c(O)c1C1CC(c2ccc(OCc3ccc(C(F)(F)F)cc3)cc2)Cc2ccccc21
+1 0.036363636 1 O=c1c(C2CC(c3ccc(OCc4ccc(C(F)(F)F)cc4)cc3)Cc3ccccc32)c(O)oc2ccccc12

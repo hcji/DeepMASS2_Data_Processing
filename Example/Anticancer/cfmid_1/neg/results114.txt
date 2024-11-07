@@ -1,0 +1,7 @@
+1 0.12121212 0 COc1ccc(-c2oc3c(CC=C(C)C)c(OC4OC(CO)C(O)C(O)C4O)cc(O)c3c(=O)c2OC2OC(COC3OC(C)C(O)C(O)C3O)C(O)C(O)C2O)cc1
+1 0.090909091 1 COc1ccc(-c2oc3c(CC=C(C)C)c(OC4OC(CO)C(O)C(O)C4O)cc(O)c3c(=O)c2OC2OC(C)C(O)C(O)C2OC2OC(CO)C(O)C(O)C2O)cc1
+1 0.12121212 2 COc1ccc(-c2oc3c(CC=C(C)C)c(OC4OC(CO)C(O)C(O)C4O)cc(O)c3c(=O)c2OC2OC(C)C(O)C(OC3OC(CO)C(O)C(O)C3O)C2O)cc1
+1 0.12121212 3 COc1ccc(-c2oc3c(CC=C(C)C)c(OC4OC(CO)C(O)C(O)C4O)cc(O)c3c(=O)c2OC2C(O)C(C)OC(O)C2OC2OC(CO)C(O)C(O)C2O)cc1
+1 0.090909091 4 COc1ccc(-c2oc3c(CC=C(C)C)c(OC4OC(CO)C(O)C(O)C4O)cc(O)c3c(=O)c2OC2OC(C)C(O)C(O)C2OC2OC(CO)C(O)C(O)C2O)cc1
+1 0.12121212 5 COc1ccc(-c2oc3c(CC=C(C)C)c(O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)cc(O)c3c(=O)c2O[C@@H]2O[C@@H](C)[C@H](O)[C@@H](O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)[C@H]2O)cc1
+1 0.12121212 6 COc1ccc(-c2oc3c(CC=C(C)C)c(O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)cc(O)c3c(=O)c2O[C@@H]2O[C@H](C)[C@H](O)[C@H](O[C@H]3O[C@@H](CO)[C@@H](O)[C@@H](O)[C@@H]3O)[C@H]2O)cc1

@@ -1,0 +1,2 @@
+1 0.91666667 0 O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl
+1 0.87719298 1 Cc1ccc(Cl)c(Nc2ccccc2C(=O)O)c1Cl

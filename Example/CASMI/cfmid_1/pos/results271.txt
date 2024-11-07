@@ -1,0 +1,5 @@
+1 0 0 Oc1ccc(Br)cc1
+1 0.2 1 BrC1=CC2OC2C=C1
+1 0 2 Oc1ccccc1Br
+1 0 3 Oc1cccc(Br)c1
+1 0 4 BrC1=CC=CC2OC12

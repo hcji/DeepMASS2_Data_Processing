@@ -1,0 +1,2 @@
+1 0.56837607 0 CN(Cc1nc2c(N)nc(N)nc2[nH]c1=O)c1ccc(C(=O)NC(CCC(=O)O)C(=O)O)cc1
+1 0.53589744 1 CN(Cc1nc2c(N)[nH]c(=N)[nH]c-2nc1=O)c1ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc1

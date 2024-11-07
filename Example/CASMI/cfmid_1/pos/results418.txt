@@ -1,0 +1,2 @@
+1 1.4404762 0 CC(C)(C)C(O)C(Oc1ccc(Cl)cc1)n1cncn1
+1 1.4404762 1 CC(C)(C)[C@@H](O)[C@H](Oc1ccc(Cl)cc1)n1cncn1

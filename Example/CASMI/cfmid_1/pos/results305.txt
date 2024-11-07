@@ -1,0 +1,4 @@
+1 0.11541566 0 Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1
+1 0 1 O=C(NN1C(=O)CCSC1c1ccc(C(F)(F)F)cc1)c1ccncc1
+1 0 2 O=C(NN1C(=O)CCSC1c1ccccc1C(F)(F)F)c1ccncc1
+1 0 3 O=C(NN1C(=O)CCSC1c1cccc(C(F)(F)F)c1)c1ccncc1

@@ -1,0 +1,1 @@
+1 0.3968254 0 O=S(=O)(O)CCC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F

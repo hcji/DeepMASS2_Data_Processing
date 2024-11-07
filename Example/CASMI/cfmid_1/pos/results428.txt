@@ -1,0 +1,1 @@
+1 1.6102564 0 O=C(NC(=O)c1c(F)cccc1F)Nc1ccc(Cl)cc1

@@ -1,0 +1,1 @@
+1 0.095462286 0 CC(C)Nc1cccnc1N1CCN(C(=O)c2cc3cc(NS(C)(=O)=O)ccc3[nH]2)CC1

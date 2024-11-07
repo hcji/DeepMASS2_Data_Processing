@@ -1,0 +1,1 @@
+1 0.15873016 0 O=S1(=O)OC(c2cc(Br)c(O)c(Br)c2)(c2cc(Br)c(O)c(Br)c2)c2ccccc21

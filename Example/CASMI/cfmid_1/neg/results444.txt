@@ -1,0 +1,1 @@
+1 0.17644006 0 CCOC(=O)c1cn2nc(OP(=S)(OCC)OCC)cc2nc1C

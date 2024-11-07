@@ -1,0 +1,2 @@
+1 0.13678161 0 O=C1OC2(c3ccc(O)cc3Oc3cc(O)ccc32)c2ccc(Br)c(Br)c21
+1 0.18541549 1 O=C1OC2(c3ccccc31)c1ccc(O)c(Br)c1Oc1c2ccc(O)c1Br

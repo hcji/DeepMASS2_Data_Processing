@@ -1,0 +1,7 @@
+1 0.36190476 0 CN(C)CCCN1c2ccccc2Sc2ccccc21
+1 0.5 1 CC(CN1c2ccccc2Sc2ccccc21)N(C)C
+1 0.29090909 2 CNCC(C)CN1c2ccccc2Sc2ccccc21
+1 0 3 CC(C)c1ccc(NC(=S)NCc2ccccc2)cc1
+1 0.5 4 CC(CN(C)C)N1c2ccccc2Sc2ccccc21
+1 0.3 5 Cc1ccc(C)c(N=C(S)Nc2c(C)cccc2C)c1
+1 0 6 CN(Cc1ccccc1)C(=S)N(C)Cc1ccccc1

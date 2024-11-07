@@ -1,0 +1,5 @@
+1 0 0 CN1CC(=O)NC1=N
+1 0 1 N#CCCNC(N)=O
+1 0 2 Cn1cc(O)nc1N
+1 0 3 NC(=O)N1CC=CN1
+1 0 4 CN(CCC#N)N=O

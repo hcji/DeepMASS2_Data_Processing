@@ -1,0 +1,3 @@
+1 0.8952381 0 CNCC[C@H](Oc1cccc2ccccc12)c1cccs1
+1 0.8952381 1 CNCCC(Oc1cccc2ccccc12)c1cccs1
+1 0.8952381 2 CNCC[C@@H](Oc1cccc2ccccc12)c1cccs1

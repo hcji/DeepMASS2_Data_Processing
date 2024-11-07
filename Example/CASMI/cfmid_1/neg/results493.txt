@@ -1,0 +1,4 @@
+1 0 0 N[C@@H](Cc1ccc(N(CCCl)CCCl)cc1)C(=O)O
+1 0 1 NC(Cc1ccc(N(CCCl)CCCl)cc1)C(=O)O
+1 0 2 NC(Cc1cccc(N(CCCl)CCCl)c1)C(=O)O
+1 0 3 N[C@H](Cc1ccc(N(CCCl)CCCl)cc1)C(=O)O

@@ -1,0 +1,4 @@
+1 0.88400488 0 COc1ccc2[nH]c([S@@](=O)Cc3ncc(C)c(OC)c3C)nc2c1
+1 0.88400488 1 COc1ccc2[nH]c(S(=O)Cc3ncc(C)c(OC)c3C)nc2c1
+1 0.88400488 2 COc1ccc2[nH]c([S@](=O)Cc3ncc(C)c(OC)c3C)nc2c1
+1 0.4040404 3 Cc1noc(NS(=O)(=O)c2cccc3c(N(C)C)cccc23)c1C

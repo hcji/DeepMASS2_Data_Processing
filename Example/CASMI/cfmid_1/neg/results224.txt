@@ -1,0 +1,1 @@
+1 0 0 O=C1NCCN1CCN1CCC(c2cn(-c3ccc(F)cc3)c3ccc(Cl)cc23)CC1

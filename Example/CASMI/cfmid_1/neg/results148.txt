@@ -1,0 +1,2 @@
+1 0 0 CC(N)C(=O)CCCCCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C
+1 0 1 CC(C)CCCCCCC(O)CC(=O)NC(CC(=O)O)C(N)=O

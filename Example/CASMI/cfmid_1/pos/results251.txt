@@ -1,0 +1,5 @@
+1 0.50649351 0 O=S(=O)(O)c1ccc2cc(S(=O)(=O)O)ccc2c1
+1 0.48951049 1 O=S(=O)(O)c1cccc2c(S(=O)(=O)O)cccc12
+1 0.81418581 2 O=S(=O)(O)c1ccc2c(S(=O)(=O)O)cccc2c1
+1 0.67878788 3 O=S(=O)(O)c1ccc2ccc(S(=O)(=O)O)cc2c1
+1 0.32467532 4 O=S(=O)(O)c1ccc2ccccc2c1S(=O)(=O)O

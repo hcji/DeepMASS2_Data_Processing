@@ -1,0 +1,2 @@
+Score,InChI,FragmenterScore_Values,MaximumTreeDepth,MonoisotopicMass,Identifier,MolecularFormula,InChIKey3,SMILES,FormulasOfExplPeaks,InChIKey2,InChIKey1,FragmenterScore,ExplPeaks,InChIKey,NoExplPeaks,NumberPeaksUsed
+1.0,"InChI=1S/C6HF11O2/c7-2(8,1(18)19)3(9,10)4(11,12)5(13,14)6(15,16)17/h(H,18,19)",348.0,2,313.9800897,33008,C6HF11O2,N,O=C(O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F,268.9831:[C5F11]+,UHFFFAOYSA,PXUULQAPEKKVAH,195.70210739410155,268.9831_999.0,PXUULQAPEKKVAH-UHFFFAOYSA-N,1,2

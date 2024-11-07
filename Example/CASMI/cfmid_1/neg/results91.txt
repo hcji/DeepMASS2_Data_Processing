@@ -1,0 +1,6 @@
+1 0.13636364 0 CCC1OC(=O)C(C)C(=O)C(C)C(OC2OC(C)CC(N(C)C)C2O)C(C)(OC)CC(C)C(=O)C(C)C2N(CCCCn3cnc(-c4cccnc4)c3)C(=O)OC12C
+1 0.13636364 1 CC[C@H]1OC(=O)[C@H](C)C(=O)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(OC)C[C@@H](C)C(=O)[C@H](C)[C@H]2N(CCCCn3cnc(-c4cccnc4)c3)C(=O)O[C@]12C
+1 0.13636364 2 CC[C@@H]1OC(=O)[C@H](C)C(=O)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(OC)C[C@@H](C)C(=O)[C@H](C)[C@H]2N(CCCCn3cnc(-c4cccnc4)c3)C(=O)O[C@@]12C
+1 0.13636364 3 CC[C@@H]1OC(=O)[C@H](C)C(=O)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(OC)C[C@@H](C)C(=O)[C@@H](C)[C@H]2N(CCCCn3cnc(-c4cccnc4)c3)C(=O)O[C@]12C
+1 0.011363636 4 CCCCC(C)CC(C)C(=O)N(C)C(Cc1ccc(OC)cc1)C(=O)NC(C(=O)N(C)C(C(=O)N1CC(O)CC1C(=O)N1C(=O)C=CC1C)C(C)C)C(C)OC(C)=O
+1 0.011363636 5 CCCCC(C)CC(C)C(=O)N(C)C(Cc1ccc(OC)cc1)C(=O)NC(=O)C(C(C)OC(C)=O)N(C)C(C(=O)N1CC(O)CC1C(=O)N1C(=O)C=CC1C)C(C)C

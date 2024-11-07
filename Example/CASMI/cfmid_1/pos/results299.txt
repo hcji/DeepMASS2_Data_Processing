@@ -1,0 +1,1 @@
+1 0.13985414 0 CCOc1nc2cccc(C(=O)O)c2n1Cc1ccc(-c2ccccc2-c2nnn[nH]2)cc1
