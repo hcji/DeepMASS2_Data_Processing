@@ -219,10 +219,11 @@ for cla in classes:
             pltdata.append([cla, mm, np.nanmin([10, all_results.loc[ww, mm]])])
 pltdata = pd.DataFrame(pltdata, columns=['class', 'method', 'rank'])
 plt.figure(figsize=(7,4), dpi=300)
-sns.violinplot(x="class", y="rank", hue="method", data=pltdata, inner='quart', palette='husl')
+sns.violinplot(x="class", y="rank", hue="method", data=pltdata, inner='quart', width=0.9, palette='husl', legend=False, common_norm=True)
 plt.xlabel("Molecular Class")
 plt.xticks(ticks=range(6), labels=['Small peptide', 'Flavonoid', 'Steroid', 'Phenylprop', 'Diterpenoid', 'Saccharide'])
 plt.ylabel("Ranking")
+plt.ylim(0, 10)
 '''
 handles, labels = plt.gca().get_legend_handles_labels()
 labels = ['DeepMASS', 'SIRIUS','MSFinder', 'MetFrag', 'CFM-ID']
@@ -243,9 +244,10 @@ for i, cla in enumerate(classes):
             pltdata.append([cla, mm, np.nanmin([10, all_results.loc[ww, mm]])])
 pltdata = pd.DataFrame(pltdata, columns=['class', 'method', 'rank'])
 plt.figure(figsize=(7,4), dpi=300)
-sns.violinplot(x="class", y="rank", hue="method", data=pltdata, inner='quart', palette='husl', legend=False)
+sns.violinplot(x="class", y="rank", hue="method", data=pltdata, inner='quart', palette='husl', legend=False, common_norm=True)
 plt.xlabel("UMAP Distance Quantiles")
 plt.ylabel("Ranking")
+plt.ylim(0, 10)
 plt.show()
 
 
@@ -260,7 +262,8 @@ for i, cla in enumerate(classes):
             pltdata.append([cla, mm, np.nanmin([10, all_results.loc[ww, mm]])])
 pltdata = pd.DataFrame(pltdata, columns=['class', 'method', 'rank'])
 plt.figure(figsize=(7,4), dpi=300)
-sns.violinplot(x="class", y="rank", hue="method", data=pltdata, inner='quart', palette='husl', legend=False)
+sns.violinplot(x="class", y="rank", hue="method", data=pltdata, inner='quart', palette='husl', legend=False, common_norm=True)
 plt.xlabel("Molecular Mass")
 plt.ylabel("Ranking")
+plt.ylim(0, 10)
 plt.show()
